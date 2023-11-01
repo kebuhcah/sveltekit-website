@@ -3,10 +3,25 @@
 	<meta name="description" content="Blog Test" />
 </svelte:head>
 
-<div class="text-column">
-	<h1>Dis is da blog</h1>
+	<h1>𐩳𐩢𐩺</h1>
 
-	<p>
-		Coming soon.
-	</p>
+<div class="grid">
+	<div class="card"><h1>𐩳</h1></div>
+	<div class="card"><h1>𐩢</h1></div>
+	<div class="card"><h1>𐩺</h1></div>
 </div>
+
+<style>
+	.grid {
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 8px;
+	}
+
+	.card {
+		border: solid;
+		width: 100%;
+		margin: 0;
+	}
+</style>
