@@ -10,7 +10,6 @@
 			<img src={logo} alt="SvelteKit" />
 		</a>
 	</div>
-
 	<nav>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
@@ -33,9 +32,13 @@
 			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
 		</svg>
 	</nav>
-
 	<div class="corner">
-		<a href="https://github.com/sveltejs/kit">
+		<a href="https://github.com/kebuhcah">
+			<img src={github} alt="GitHub" />
+		</a>
+	</div>
+	<div class="corner">
+		<a href="https://github.com/kebuhcah">
 			<img src={github} alt="GitHub" />
 		</a>
 	</div>
@@ -44,7 +47,7 @@
 <style>
 	header {
 		display: flex;
-		justify-content: space-between;
+		justify-content: right;
 	}
 
 	.corner {
@@ -68,7 +71,8 @@
 
 	nav {
 		display: flex;
-		justify-content: center;
+		flex: 1;
+		justify-content: left;
 		--background: rgba(82, 82, 82, 0.7);
 	}
 
