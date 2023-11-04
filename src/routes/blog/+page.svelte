@@ -42,12 +42,12 @@
 
 	.card-header {
 		border: solid;
-		margin: 0;
+		margin: -2px;
 	}
 
 	.card-body {
 		border: solid;
-		margin: 0;
+		margin: -2px;
 		padding: 2em;
 	}
 </style>
