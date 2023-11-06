@@ -6,8 +6,8 @@
 
 <header>
 	<div class="corner">
-		<a href="">
-			<img src={logo} alt="SvelteKit" />
+		<a href="https://medium.com/sunlanguagetheories">
+			<img src={logo} width="200px" height="200px" alt="Sun Language Theories" />
 		</a>
 	</div>
 	<nav>
@@ -75,6 +75,7 @@
 
 	nav {
 		display: flex;
+		margin-left: -0.2em;
 		--background: rgba(82, 82, 82, 0.7);
 	}
 
