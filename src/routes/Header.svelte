@@ -32,7 +32,7 @@
 			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
 		</svg>
 	</nav>
-	<div class="corner">
+	<div class="corner corner-gap">
 		<a href="https://github.com/kebuhcah">
 			<img src={github} alt="GitHub" />
 		</a>
@@ -55,6 +55,10 @@
 		height: 3em;
 	}
 
+	.corner-gap {
+		margin-left: auto;
+	}
+
 	.corner a {
 		display: flex;
 		align-items: center;
@@ -71,8 +75,6 @@
 
 	nav {
 		display: flex;
-		flex: 1;
-		justify-content: left;
 		--background: rgba(82, 82, 82, 0.7);
 	}
 
