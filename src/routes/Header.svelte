@@ -25,7 +25,7 @@
 				<a href="/sverdle">Sverdle</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/blog' ? 'page' : undefined}>
-				<a href="/blog">BlogTest</a>
+				<a href="/counter">counter</a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">

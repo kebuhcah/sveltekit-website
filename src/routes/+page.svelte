@@ -1,59 +1,53 @@
-<script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
-</script>
-
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Blog Test</title>
+	<meta name="description" content="Blog Test" />
 </svelte:head>
 
-<section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
+<h1>𐩳𐩢𐩺</h1>
 
-		to <b>Kevin's</b> new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
-</section>
+<div class="grid">
+	<div class="card">
+		<div class="card-header">
+			<h1>𐩳</h1>
+		</div>
+		<div class="card-body">Sun.</div>
+	</div>
+	<div class="card">
+		<div class="card-header">
+			<h1>𐩢</h1>
+		</div>
+		<div class="card-body">Language.</div>
+	</div>
+	<div class="card">
+		<div class="card-header">
+			<h1>𐩺</h1>
+		</div>
+		<div class="card-body">Theories.</div>
+	</div>
+</div>
 
 <style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
+	.grid {
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 12px;
 	}
 
-	h1 {
+	.card {
+		border: solid;
 		width: 100%;
+		margin: 0;
 	}
 
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
+	.card-header {
+		border: solid;
+		margin: -2px;
 	}
 
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
+	.card-body {
+		border: solid;
+		margin: -2px;
+		padding: 2em;
 	}
 </style>
