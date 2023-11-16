@@ -6,7 +6,7 @@
 
 <header>
 	<div class="corner">
-		<a href="https://medium.com/sunlanguagetheories">
+		<a href="#">
 			<img src={logo} width="200px" height="200px" alt="Sun Language Theories" />
 		</a>
 	</div>
