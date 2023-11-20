@@ -1,14 +1,15 @@
 <script>
-	import Counter from '../Counter.svelte';
+	//import Counter from '../Counter.svelte';
 </script>
 
 <svelte:head>
 	<title>Counter</title>
-	<meta name="description" content="Counter" />
+	<meta name="description" content="Counter what the heck" />
 </svelte:head>
 
 <section>
-	<Counter />
+	WHAT
+	<!-- <Counter /> -->
 </section>
 
 <style>
