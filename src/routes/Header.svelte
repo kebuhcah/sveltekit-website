@@ -6,7 +6,7 @@
 
 <header>
 	<div class="corner">
-		<a href="#">
+		<a href="/">
 			<img src={logo} width="200px" height="200px" alt="Sun Language Theories" />
 		</a>
 	</div>
@@ -24,8 +24,8 @@
 			<li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
 				<a href="/sverdle">Sverdle</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/blog' ? 'page' : undefined}>
-				<a href="/counter">counter</a>
+			<li aria-current={$page.url.pathname === '/counter' ? 'page' : undefined}>
+				<a href="/counter">Counter</a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
