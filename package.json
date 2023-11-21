@@ -12,6 +12,11 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write ."
 	},
+	"dependencies": {
+		"mdsvex": "^0.10.6",
+		"rehype-autolink-headings": "^6.1.1",
+		"rehype-slug": "^5.1.0"
+	},
 	"devDependencies": {
 		"@fontsource/fira-mono": "^4.5.10",
 		"@neoconfetti/svelte": "^1.0.0",
