@@ -29,19 +29,21 @@ const config = {
 	],
 
 	kit: {
-		adapter: adapter(),
-    prerender: {
-      entries: [
-        '*',
-        '/api/posts/page/*',
-        '/blog/category/*/page/',
-        '/blog/category/*/page/*',
-        '/blog/category/page/',
-        '/blog/category/page/*',
-        '/blog/page/',
-        '/blog/page/*',
-      ]
-    }
+		adapter: adapter({
+			runtime: 'nodejs18.x'
+		}),
+		prerender: {
+			entries: [
+				'*'
+				//'/api/posts/page/*',
+				//'/blog/category/*/page/',
+				//'/blog/category/*/page/*',
+				//'/blog/category/page/',
+				//'/blog/category/page/*',
+				//'/blog/page/',
+				//'/blog/page/*',
+			]
+		}
 	}
 };
 
