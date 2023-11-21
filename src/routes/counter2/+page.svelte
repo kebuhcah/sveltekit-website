@@ -1,5 +1,5 @@
 <script>
-	//import Counter from '../Counter.svelte';
+	import Counter from '../../components/Counter.svelte';
 </script>
 
 <svelte:head>
@@ -8,8 +8,7 @@
 </svelte:head>
 
 <section>
-	WHAT
-	<!-- <Counter /> -->
+	<Counter />
 </section>
 
 <style>
