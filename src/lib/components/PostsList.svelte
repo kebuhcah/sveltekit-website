@@ -1,5 +1,8 @@
 <script>
-	export let posts = [];
+	/**
+	 * @type {any[]}
+	 */
+	 export let posts = [];
 </script>
 
 <ul class="posts-list">
