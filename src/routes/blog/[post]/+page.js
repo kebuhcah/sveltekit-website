@@ -12,7 +12,6 @@ export const load = async ({ params }) => {
             meta: { ...post.metadata, slug: params.post }
         }
     } catch (err) {
-        // @ts-ignore
         throw error(404, err)
     }
 }

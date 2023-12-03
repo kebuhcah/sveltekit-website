@@ -1,7 +1,5 @@
 <!-- Renders any page at /blog/category/* -->
 <script>
-// @ts-nocheck
-
 	import PostsList from '$lib/components/PostsList.svelte'
 	import Pagination from '$lib/components/Pagination.svelte'
   import { postsPerPage } from '$lib/config'

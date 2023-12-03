@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { redirect } from '@sveltejs/kit';
 import { postsPerPage } from '$lib/config'
 import fetchPosts from '$lib/assets/js/fetchPosts'

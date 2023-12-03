@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { postsPerPage } from '$lib/config'
 
 const fetchPosts = async ({ offset = 0, limit = postsPerPage, category = '' } = {}) => {

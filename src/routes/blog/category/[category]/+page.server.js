@@ -1,4 +1,3 @@
-// @ts-nocheck
 import fetchPosts from '$lib/assets/js/fetchPosts'
 
 export const load = async ({ params }) => {
