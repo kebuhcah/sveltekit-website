@@ -7,7 +7,7 @@ categories:
   - "arabic"
   - "hebrew"
   - "semitic"
-coverImage: "/images/nan.jpg"
+coverImage: "/images/filler.jpg"
 coverWidth: 16
 coverHeight: 9
 excerpt: Amharic is a Semitic language like Arabic and Hebrew. But just how similar is it to them?
