@@ -35,15 +35,11 @@
 
 	<h1>{title}</h1>
 
-	<div class="meta">
-		<b>Published:</b>
-		{date}
-		<br />
-		<b>Updated:</b>
-		{updated}
-	</div>
-
 	<svelte:component this={PostContent} />
+
+	<div class="meta">
+		<b>Published:</b> {date} | <b>Updated:</b> {updated}
+	</div>
 
 	{#if categories}
 		<aside class="post-footer">
