@@ -1,4 +1,5 @@
 <script>
+	import '$lib/assets/scss/global.scss'
 	import { browser } from '$app/environment';
 	import { page } from '$app/stores';
 	import { webVitals } from '$lib/vitals';
