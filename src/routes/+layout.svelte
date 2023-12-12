@@ -4,7 +4,6 @@
 	import { page } from '$app/stores';
 	import { webVitals } from '$lib/vitals';
 	import Header from './Header.svelte';
-	import './styles.css';
 
 	/** @type {import('./$types').LayoutServerData} */
 	export let data;
