@@ -40,11 +40,6 @@
 			<img src={github} alt="GitHub" />
 		</a>
 	</div>
-	<div class="corner">
-		<a href="https://github.com/kebuhcah">
-			<img src={github} alt="GitHub" />
-		</a>
-	</div>
 </header>
 
 <style>
