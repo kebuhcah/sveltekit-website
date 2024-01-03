@@ -1,18 +1,23 @@
 <div class="text-column">
-	<div class="venn-circle top">𐩺</div>
-	<div class="venn-circle left">𐩢</div>
-	<div class="venn-circle right">𐩳</div>
+	<div class="venn-circle top"><div class="circle-content">𐩺</div></div>
+	<div class="venn-circle left"><div class="circle-content">𐩢</div></div>
+	<div class="venn-circle right"><div class="circle-content">𐩳</div></div>
 </div>
 
 <style>
 	.venn-circle {
-		font-size: 4rem;
 		border-style: solid;
 		border-radius: 50%;
-        height: 300px;
-        width: 300px;
+        height: 20vw;
+        width: 20vw;
         position: fixed;
+        box-sizing: border-box;
 	}
+
+    .circle-content {
+        font-size: 4rem;
+        padding: 30% 40%;
+    }
 
     .top {
 
