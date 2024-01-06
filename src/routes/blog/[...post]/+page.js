@@ -2,7 +2,6 @@ import { error } from '@sveltejs/kit'
 
 export const load = async ({ params }) => {
     try {
-        console.log("TEST!")
         const postDepth = params.post.split('/').length - 1
 
         // why this is needed: https://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations
@@ -17,7 +16,6 @@ export const load = async ({ params }) => {
         } else if (postDepth == 1) {
             const [firstPart, secondPart] = params.post.split('/')
             const post = await import(`../../../lib/posts/${firstPart}/${secondPart}.md`).catch((e) => ({ slug: e, metadata: {} }))
-            console.log(post)
 
             return {
                 PostContent: post.default,
