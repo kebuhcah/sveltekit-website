@@ -20,7 +20,7 @@ excerpt: Amharic is a Semitic language like Arabic and Hebrew. But just how simi
 
 ## The Rule of Threes
 
-Addis Ababa means "new flower". Addis is related to Hebrew <Lemma language="heb">chadash</Lemma> and Arabic <Lemma language="ara">ḥadīṯ</Lemma>.
+Addis Ababa means "new flower". <Lemma language="amh">Addis</Lemma> is related to Hebrew <Lemma language="heb">chadash</Lemma> and Arabic <Lemma language="ara">ḥadīṯ</Lemma>.
 Test test test
 Lorem ipsum dolor sit amet
 

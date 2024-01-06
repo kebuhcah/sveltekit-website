@@ -5,7 +5,9 @@
 	import { webVitals } from '$lib/vitals';
 	import Header from './Header.svelte';
 
-	/** @type {import('./$types').LayoutServerData} */
+	import { setContext } from 'svelte';
+	import { writable } from 'svelte/store';
+
 	export let data;
 
 	$: if (browser && data?.analyticsId) {
@@ -15,6 +17,15 @@
 			analyticsId: data.analyticsId
 		});
 	}
+
+	const lemmaDisplaySettings = writable();
+
+	lemmaDisplaySettings.set({
+		'ara': { color: 'red'},
+		'heb': { color: 'blue'}
+	});
+
+	setContext('lemmaDisplaySettings', lemmaDisplaySettings);
 </script>
 
 <div class="app">
