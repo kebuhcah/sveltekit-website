@@ -1,5 +1,9 @@
+<script>
+    export let language;
+</script>
+
 <span class="lemma">
-	<slot />
+	<slot /> ({language})
 </span>
 
 <style>
