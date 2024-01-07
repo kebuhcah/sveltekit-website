@@ -1,21 +1,30 @@
 <script>
 	export let language;
 
-	import { getContext } from 'svelte';
+	export let latin;
+	export let script;
 
+	import { getContext } from 'svelte';
 	const lemmaDisplaySettings = getContext('lemmaDisplaySettings');
 
 	let showConfig = false;
+	const mouseoutHandler = () => (showConfig = false);
 </script>
 
 <span
 	class="lemma"
 	on:mousedown={() => (showConfig = !showConfig)}
-    on:mouseout={() => showConfig = false}
-    on:blur={() => showConfig = false}
+	on:mouseout={mouseoutHandler}
+	on:blur={mouseoutHandler}
 	style="color: {$lemmaDisplaySettings[language]?.color}"
 >
-	<i><slot /></i>
+	<i>
+		{#if $lemmaDisplaySettings[language]?.default != 'script'}
+			{latin}
+		{:else}
+			{script}
+		{/if}
+	</i>
 	{#if showConfig}
 		<span class="config">config box here!</span>
 	{/if}
@@ -23,7 +32,7 @@
 
 <style>
 	.lemma {
-        position: relative;
+		position: relative;
 		cursor: pointer;
 	}
 
@@ -31,7 +40,7 @@
 		position: absolute;
 		width: 100px;
 		border-style: solid;
-        top: 110%;
-        left: 10%;
+		top: 110%;
+		left: 10%;
 	}
 </style>
