@@ -22,6 +22,7 @@
 
 	lemmaDisplaySettings.set({
 		'ara': { color: 'red'},
+		'amh': { color: 'orange'},
 		'heb': { color: 'blue'}
 	});
 
