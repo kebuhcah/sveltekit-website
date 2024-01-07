@@ -7,6 +7,9 @@
 	import { getContext } from 'svelte';
 	const lemmaDisplaySettings = getContext('lemmaDisplaySettings');
 
+	let primary = $lemmaDisplaySettings[language]?.primary;
+    let color = $lemmaDisplaySettings[language]?.color;
+
 	let showConfig = false;
 	const mouseoutHandler = () => (showConfig = false);
 </script>
@@ -16,15 +19,11 @@
 	on:mousedown={() => (showConfig = !showConfig)}
 	on:mouseout={mouseoutHandler}
 	on:blur={mouseoutHandler}
-	style="color: {$lemmaDisplaySettings[language]?.color}"
+	style="color: {color}"
 >
-	<i>
-		{#if $lemmaDisplaySettings[language]?.default != 'script'}
-			{latin}
-		{:else}
-			{script}
-		{/if}
-	</i>
+	<span class="layer" class:primary={primary != 'script'} class:secondary={primary == 'script'}><i>{latin}</i></span>
+	<span class="layer floating" class:primary={primary == 'script'} class:secondary={primary != 'script'}>{script}</span>
+
 	{#if showConfig}
 		<span class="config">config box here!</span>
 	{/if}
@@ -42,5 +41,19 @@
 		border-style: solid;
 		top: 110%;
 		left: 10%;
+	}
+
+	.layer.floating {
+		position: absolute;
+        left: 0;
+	}
+
+	.layer.primary {
+		border-style: solid;
+		padding: 0px 2px;
+	}
+
+    .layer.secondary {
+		opacity: 0.2;
 	}
 </style>

@@ -21,9 +21,9 @@
 	const lemmaDisplaySettings = writable();
 
 	lemmaDisplaySettings.set({
-		'ara': { color: 'red', default: 'script'},
-		'amh': { color: 'orange', default: 'latin'},
-		'heb': { color: 'blue', default: 'script'}
+		'ara': { color: 'cyan', primary: 'script'},
+		'amh': { color: 'orange', primary: 'latin'},
+		'heb': { color: 'blue', primary: 'script'}
 	});
 
 	setContext('lemmaDisplaySettings', lemmaDisplaySettings);
