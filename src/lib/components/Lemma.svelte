@@ -9,6 +9,8 @@
 	$: latinWider = latinWidth >= scriptWidth;
 	$: scriptWider = latinWidth < scriptWidth;
 
+    let flip = false;
+
 	import { getContext } from 'svelte';
 	const lemmaDisplaySettings = getContext('lemmaDisplaySettings');
 
@@ -25,13 +27,14 @@
 </script>
 
 <span class="component" on:mouseleave={mouseoutHandler} style="color: {color}">
-	<span class="lemma" on:mousedown={clickHandler}>
+	<span class="lemma" on:mousedown={clickHandler} on:mouseenter={() => flip = true} on:mouseleave={() => flip = false}>
 		<span
 			class="layer"
 			class:floating={scriptWider}
 			class:spanning={latinWider}
 			class:primary={primary != 'script'}
 			class:secondary={primary == 'script'}
+            class:flip={flip && !showConfig}
 		>
 			<span class="has-width" bind:clientWidth={latinWidth}>{latin}</span>
 		</span>
@@ -41,6 +44,7 @@
 			class:spanning={scriptWider}
 			class:primary={primary == 'script'}
 			class:secondary={primary != 'script'}
+            class:flip={flip && !showConfig}
 		>
 			<span class="has-width" bind:clientWidth={scriptWidth}>{script}</span>
 		</span>
@@ -102,12 +106,25 @@
 		display: inline-block; /* needed for centering */
 	}
 
+    .layer {
+        transition: opacity 200ms;
+    }
+
 	.layer.primary {
-		/*border-style: solid;*/
-		border-width: 1px;
+		opacity: 1;
+	}
+
+    .layer.primary.flip {
+		opacity: 0.2;
 	}
 
 	.layer.secondary {
 		opacity: 0.2;
 	}
+
+    .layer.secondary.flip {
+		opacity: 1;
+	}
+    
+    
 </style>
