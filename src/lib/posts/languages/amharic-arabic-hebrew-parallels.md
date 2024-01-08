@@ -18,7 +18,7 @@ excerpt: Amharic is a Semitic language like Arabic and Hebrew. But just how simi
 	import Lemma from '$lib/components/Lemma.svelte';
 </script>
 
-## The Rule of Threes
+## Intro
 
 Addis Ababa means "new flower". <Lemma language="amh" latin="Addis" script="አዲስ"/> is related to Hebrew <Lemma language="heb" latin="ḥadaš" latin2="chadash" script="חדש" /> and Arabic <Lemma language="ara" latin="ḥadīṯ" script="حديث" />.
 Test test test

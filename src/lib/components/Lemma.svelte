@@ -24,6 +24,15 @@
 	let showConfig = false;
 	const clickHandler = () => (showConfig = true);
 	const mouseoutHandler = () => (showConfig = false);
+
+    $: primary = configPrimary;
+    $: lemmaDisplaySettings.update((settings) => ({
+        ...settings,
+        [language]: {
+            ...settings[language],
+            primary: primary
+        }
+    }))
 </script>
 
 <span class="component" on:mouseleave={mouseoutHandler} style="color: {color}">
