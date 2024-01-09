@@ -12,27 +12,20 @@
     let flip = false;
 
 	import { getContext } from 'svelte';
-	const lemmaDisplaySettings = getContext('lemmaDisplaySettings');
+	const languageSettings = getContext('lemmaDisplaySettings')[language];
 
-	const languageSettings = $lemmaDisplaySettings[language];
+    let configPrimary = $languageSettings.primary;
 
-	let primary = languageSettings.primary;
-	let color = languageSettings.color;
-
-	let configPrimary = primary;
+	$: primary = $languageSettings.primary;
+	$: color = $languageSettings.color;
 
 	let showConfig = false;
 	const clickHandler = () => (showConfig = true);
 	const mouseoutHandler = () => (showConfig = false);
 
-    $: primary = configPrimary;
-    $: lemmaDisplaySettings.update((settings) => ({
-        ...settings,
-        [language]: {
-            ...settings[language],
-            primary: primary
-        }
-    }))
+    $: languageSettings.update((settings) => {
+        primary = configPrimary;
+        return { ...settings, primary: configPrimary}});
 </script>
 
 <span class="component" on:mouseleave={mouseoutHandler} style="color: {color}">
@@ -96,6 +89,7 @@
 		top: 1.5em;
 		left: 10%;
 		background-color: grey;
+        z-index: 100;
 	}
 
 	/* inline elements have no clientWidth, need this for width adjustment to work */

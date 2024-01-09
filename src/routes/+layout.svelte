@@ -18,15 +18,11 @@
 		});
 	}
 
-	const lemmaDisplaySettings = writable();
-
-	lemmaDisplaySettings.set({
-		'ara': { color: 'cyan', primary: 'script'},
-		'amh': { color: 'orange', primary: 'latin'},
-		'heb': { color: 'blue', primary: 'script'}
+	setContext('lemmaDisplaySettings', {
+		'ara': writable({ color: 'lime', primary: 'script'}),
+		'amh': writable({ color: 'orange', primary: 'latin'}),
+		'heb': writable({ color: 'cyan', primary: 'script'})
 	});
-
-	setContext('lemmaDisplaySettings', lemmaDisplaySettings);
 </script>
 
 <div class="app">
