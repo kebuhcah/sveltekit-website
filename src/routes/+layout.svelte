@@ -20,7 +20,7 @@
 
 	setContext('lemmaDisplaySettings', {
 		'ara': writable({ color: 'lime', primary: 'script'}),
-		'amh': writable({ color: 'orange', primary: 'latin'}),
+		'amh': writable({ color: 'tomato', primary: 'latin'}),
 		'heb': writable({ color: 'cyan', primary: 'script'})
 	});
 </script>

@@ -2,6 +2,7 @@
 	import { page } from '$app/stores';
 	import logo from '$lib/images/slt-logo.svg';
 	import github from '$lib/images/github.svg';
+	import medium from '$lib/images/medium_logo.svg';
 </script>
 
 <header>
@@ -35,6 +36,11 @@
 	<div class="corner corner-gap">
 		<a href="https://github.com/kebuhcah">
 			<img src={github} alt="GitHub" />
+		</a>
+	</div>
+	<div class="corner">
+		<a href="https://medium.com/sunlanguagetheories">
+			<img src={medium} alt="Medium" />
 		</a>
 	</div>
 </header>
