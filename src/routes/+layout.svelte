@@ -35,7 +35,7 @@
 	</main>
 
 	<footer>
-		<p>This blog is under construction. Visit <a href="https://medium.com/sunlanguagetheories" target="_blank">Sun Language Theories</a> on Medium.</p>
+		
 	</footer>
 </div>
 
