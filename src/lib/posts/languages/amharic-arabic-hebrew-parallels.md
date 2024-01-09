@@ -20,9 +20,9 @@ excerpt: Amharic is a Semitic language like Arabic and Hebrew. But just how simi
 
 ## What's in a name?
 
-**Addis Ababa**, the capital of Ethiopia, means "new flower". <Lemma language="amh" latin="Addis" script="አዲስ"/> is related to Hebrew <Lemma language="heb" latin="ḥadaš" latin2="chadash" script="חדש" /> and Arabic <Lemma language="ara" latin="ḥadīṯ" script="حديث" />.
+**Addis Ababa**, the capital of Ethiopia, means "New Flower". <Lemma language="amh" latin="Addis" script="አዲስ"/> is related to Hebrew <Lemma language="heb" latin="ḥadaš" latin2="chadash" script="חדש" /> and Arabic <Lemma language="ara" latin="ḥadīṯ" script="حديث"/>.
 
-The name of Ethiopia's last emperor, **Haile Selassie**, means "Power of the Trinity".  <Lemma language="amh" latin="Selassie" script="ሥላሴ"/> is related to Hebrew <Lemma language="heb" latin="šaloš" latin2="shalosh" script="שלוש" /> and Arabic <Lemma language="ara" latin="ṯalāṯa" script="ثلاثة" />
+The name of Ethiopia's last emperor, **Haile Selassie**, means "Power of the Trinity".  <Lemma language="amh" latin="Selassie" script="ሥላሴ"/> is related to Hebrew <Lemma language="heb" latin="šaloš" latin2="shalosh" script="שלוש" /> and Arabic <Lemma language="ara" latin="ṯalāṯa" script="ثلاثة"/>.
 
 ## More
 

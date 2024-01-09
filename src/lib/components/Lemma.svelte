@@ -57,7 +57,7 @@
 		<span class="config" on:blur={mouseoutHandler}>
 			<label>
 				<input type="radio" bind:group={configPrimary} value={'latin'} />
-				Romanized
+				Transliteration
 			</label>
             <br/>
 			<label>
