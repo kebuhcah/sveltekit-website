@@ -30,19 +30,19 @@ I'm still far from conversational in Amharic, but at this point I am able to rea
 
 Let's start with some Amharic words you're somewhat likely to have heard, even if you didn't know what Amharic was.
 
-**Addis Ababa**, the capital of Ethiopia, means "New Flower". <Lemma language="amh" latin="Addis" script="አዲስ"/> is related to Hebrew <Lemma language="heb" latin="ḥadaš" latin2="chadash" script="חדש" /> and Arabic <Lemma language="ara" latin="ḥadīṯ" script="حديث"/>. 
+**Addis Ababa**, the capital of Ethiopia, means "New Flower". <Lemma language="amh" latin="Addis" script="አዲስ"/> is related to Hebrew <Lemma language="heb" latin="ḥadaš" latin2="chadash" script="חדש" /> and Arabic <Lemma language="ara" latin="ḥadīṯ" script="حديث" punct />. 
 
-(Additionally, <Lemma language="amh" latin="Ababa" script="አበባ" /> is related to Syriac <Lemma language="syc" latin="habbāḇā" script="ܗܒܒܐ" />, which is another example of h-dropping. There aren't any related Arabic or Hebrew words as far as I know.)
+(Additionally, <Lemma language="amh" latin="Abäba" script="አበባ" /> is related to Syriac <Lemma language="syc" latin="habbāḇā" script="ܗܒܒܐ" punct />, which is another example of h-dropping. There aren't any related Arabic or Hebrew words as far as I know.)
 
-The name of Ethiopia's last emperor (and Rastafarian icon) **<a href="https://en.wikipedia.org/wiki/Haile_Selassie" target="_blank">Haile Selassie</a>**, meanwhile, means "Power of the Trinity".  <Lemma language="amh" latin="Selassie" script="ሥላሴ"/> is related to Hebrew <Lemma language="heb" latin="šaloš" latin2="shalosh" script="שלוש" /> and Arabic <Lemma language="ara" latin="ṯalāṯa" script="ثلاثة"/>. Strictly speaking, I guess this should be considered a Ge'ez word, but it exhibits the same sound change as in Amharic — the Arabic "th" sound, which corresponds to Hebrew "sh", becomes an "s" in Amharic.
+The name of Ethiopia's last emperor (and Rastafarian icon) **<a href="https://en.wikipedia.org/wiki/Haile_Selassie" target="_blank">Haile Selassie</a>**, meanwhile, means "Power of the Trinity".  <Lemma language="amh" latin="Səllasé" script="ሥላሴ"/> is related to Hebrew <Lemma language="heb" latin="šaloš" latin2="shalosh" script="שלוש" /> and Arabic <Lemma language="ara" latin="ṯalāṯa" script="ثلاثة" punct/>. Strictly speaking, I guess this should be considered a Ge'ez word, but it exhibits the same sound change as in Amharic — the Arabic "th" sound, which corresponds to Hebrew "sh", becomes an "s" in Amharic.
 
 Now let's take a look some more example. Many of these are words I remembered during my own learning process, but I also owe a lot of this content to D.L. Appleyard's <a href="https://archive.org/details/AppleyardAComparativeApproachToTheAmharicLexicon1977" target="_blank">A Comparative Approach to the Amharic Lexicon (1977)</a>.
 
 ## Obviously similar words
-- <Lemma language="amh" latin="bet" script="ቤት"/> ("house") is clearly related to <Lemma language="ara" latin="bayt" script="بيت"/> and <Lemma language="heb" latin="bayit" script="בית"/>
+- "House" in Amharic is <Lemma language="amh" latin="bet" script="ቤት" punct/>, which is clearly related to <Lemma language="ara" latin="bayt" script="بيت"/> and <Lemma language="heb" latin="bayit" script="בית"/>
 - <Lemma language="amh" latin="bal" script="ባል"/> <Lemma language="ara" latin="baʕl" script="بعل"/> <Lemma language="heb" latin="ba'al" script="בעל"/>
-- alam
-- kokab
+- <Lemma language="amh" latin="alam" script="ዓለም"/> <Lemma language="ara" latin="ʕālam" script="عالم"/> <Lemma language="heb" latin="olam" script="עולם"/>
+- "Star" is <Lemma language="amh" latin="kokäb" script="ኮከብ" punct />, related to <Lemma language="ara" latin="kawkab" script="كوكب"/> and <Lemma language="heb" latin="kokhav" script="כוכב"/> (although the Arabic word more commonly means "planet" now).
 - samay
 - Numbers! 10, 40, 50, 60, 70, 80
 - saat, daqiqa

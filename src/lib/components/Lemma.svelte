@@ -4,40 +4,55 @@
 	export let latin;
 	export let script;
 
+    export let punct = false;
+
 	let latinWidth;
 	let scriptWidth;
 	$: latinWider = latinWidth >= scriptWidth;
 	$: scriptWider = latinWidth < scriptWidth;
 
-    let flip = false;
+	let flip = false;
 
 	import { getContext } from 'svelte';
 	const languageSettings = getContext('lemmaDisplaySettings')[language];
 
-    let configPrimary = $languageSettings.primary;
+	let configPrimary = $languageSettings.primary;
 
 	$: primary = $languageSettings.primary;
 	$: color = $languageSettings.color;
 
 	let showConfig = false;
-    const syncConfig = () => configPrimary = $languageSettings.primary;
-	const clickHandler = () => {syncConfig(); showConfig = true};
-	const mouseoutHandler = () => {syncConfig(); showConfig = false};
+	const syncConfig = () => (configPrimary = $languageSettings.primary);
+	const clickHandler = () => {
+		syncConfig();
+		showConfig = true;
+	};
+	const mouseoutHandler = () => {
+		syncConfig();
+		showConfig = false;
+	};
 
-    $: languageSettings.update((settings) => {
-        primary = configPrimary;
-        return { ...settings, primary: configPrimary}});
+	$: languageSettings.update((settings) => {
+		primary = configPrimary;
+		return { ...settings, primary: configPrimary };
+	});
 </script>
 
 <span class="component" on:mouseleave={mouseoutHandler} style="color: {color}">
-	<span class="lemma" on:mousedown={clickHandler} on:mouseenter={() => flip = true} on:mouseleave={() => flip = false}>
+	<span
+		class="lemma"
+        class:punct
+		on:mousedown={clickHandler}
+		on:mouseenter={() => (flip = true)}
+		on:mouseleave={() => (flip = false)}
+	>
 		<span
 			class="layer"
 			class:floating={scriptWider}
 			class:spanning={latinWider}
 			class:primary={primary != 'script'}
 			class:secondary={primary == 'script'}
-            class:flip={flip && !showConfig}
+			class:flip={flip && !showConfig}
 		>
 			<span class="has-width" bind:clientWidth={latinWidth}>{latin}</span>
 		</span>
@@ -47,7 +62,7 @@
 			class:spanning={scriptWider}
 			class:primary={primary == 'script'}
 			class:secondary={primary != 'script'}
-            class:flip={flip && !showConfig}
+			class:flip={flip && !showConfig}
 		>
 			<span class="has-width" bind:clientWidth={scriptWidth}>{script}</span>
 		</span>
@@ -59,7 +74,7 @@
 				<input type="radio" bind:group={configPrimary} value={'latin'} />
 				Transliteration
 			</label>
-            <br/>
+			<br />
 			<label>
 				<input type="radio" bind:group={configPrimary} value={'script'} />
 				Script
@@ -69,15 +84,20 @@
 </span>
 
 <style>
-    .component {
+	.component {
 		position: relative;
 		padding-bottom: 1em;
-    }
+	}
 
 	.lemma {
 		cursor: pointer;
 		white-space: nowrap;
 	}
+
+    /* class for removing whitespace when element is immediately followed by punctuation */
+    .punct {
+        margin-right: -0.4ch;
+    }
 
 	.config {
 		position: absolute;
@@ -90,7 +110,7 @@
 		top: 1.5em;
 		left: 10%;
 		background-color: grey;
-        z-index: 100;
+		z-index: 100;
 	}
 
 	/* inline elements have no clientWidth, need this for width adjustment to work */
@@ -110,15 +130,15 @@
 		display: inline-block; /* needed for centering */
 	}
 
-    .layer {
-        transition: opacity 200ms;
-    }
+	.layer {
+		transition: opacity 200ms;
+	}
 
 	.layer.primary {
 		opacity: 1;
 	}
 
-    .layer.primary.flip {
+	.layer.primary.flip {
 		opacity: 0.2;
 	}
 
@@ -126,9 +146,7 @@
 		opacity: 0.2;
 	}
 
-    .layer.secondary.flip {
+	.layer.secondary.flip {
 		opacity: 1;
 	}
-    
-    
 </style>
