@@ -20,8 +20,9 @@
 	$: color = $languageSettings.color;
 
 	let showConfig = false;
-	const clickHandler = () => (showConfig = true);
-	const mouseoutHandler = () => (showConfig = false);
+    const syncConfig = () => configPrimary = $languageSettings.primary;
+	const clickHandler = () => {syncConfig(); showConfig = true};
+	const mouseoutHandler = () => {syncConfig(); showConfig = false};
 
     $: languageSettings.update((settings) => {
         primary = configPrimary;
