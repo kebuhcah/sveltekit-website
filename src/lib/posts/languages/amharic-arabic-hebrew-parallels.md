@@ -40,12 +40,12 @@ Now let's take a look some more example. Many of these are words I remembered du
 
 ## Obviously similar words
 - "House" in Amharic is <Lemma language="amh" latin="bet" script="ቤት" punct/>, which is clearly related to <Lemma language="ara" latin="bayt" script="بيت"/> and <Lemma language="heb" latin="bayit" script="בית"/>
-- <Lemma language="amh" latin="bal" script="ባል"/> <Lemma language="ara" latin="baʕl" script="بعل"/> <Lemma language="heb" latin="ba'al" script="בעל"/>
-- <Lemma language="amh" latin="alam" script="ዓለም"/> <Lemma language="ara" latin="ʕālam" script="عالم"/> <Lemma language="heb" latin="olam" script="עולם"/>
+- The Amharic word for "husband", <Lemma language="amh" latin="bal" script="ባል" punct/>, is related to <Lemma language="ara" latin="baʕl" script="بعل"/> and <Lemma language="heb" latin="ba'al" script="בעל"/>
+- "World", <Lemma language="amh" latin="alam" script="ዓለም" punct />, corresponds to <Lemma language="ara" latin="ʕālam" script="عالم"/> and <Lemma language="heb" latin="olam" script="עולם"/> 
 - "Star" is <Lemma language="amh" latin="kokäb" script="ኮከብ" punct />, related to <Lemma language="ara" latin="kawkab" script="كوكب"/> and <Lemma language="heb" latin="kokhav" script="כוכב"/> (although the Arabic word more commonly means "planet" now).
-- samay
-- Numbers! 10, 40, 50, 60, 70, 80
-- saat, daqiqa
+- <Lemma language="amh" latin="kokäb" script="ኮከብ" punct />, related to <Lemma language="ara" latin="kawkab" script="كوكب"/> and <Lemma language="heb" latin="kokhav" script="כוכב"/>
+- <Lemma language="amh" latin="sämay" script="ሰማይ" punct />, related to <Lemma language="ara" latin="samāʔ" script="سماء"/> and <Lemma language="heb" latin="shamayim" script="שמים"/>
+- We saw that the roots for "three" is similar in all three languages earlier, and the same is true for most other numbers, although this is clearer in the numbers that are multiples of ten: 10, 40, 50, 60, 70, 80
 
 ## Different meanings
 - lam (cow)

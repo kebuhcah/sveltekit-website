@@ -39,16 +39,15 @@ body {
 
 h1 {
 	font-weight: 800;
+	text-align: center;
 }
+
 h2 {
 	font-weight: 600;
 }
 
 p {
 	font-weight: 400;
-}
-
-p {
 	line-height: 1.5;
 }
 
@@ -57,17 +56,13 @@ a {
 	text-decoration: none;
 }
 
+li {
+	margin-bottom: 0.4rem;
+	line-height: 1.2;
+}
+
 a:hover {
 	text-decoration: underline;
-}
-
-h1 {
-	font-size: 3rem;
-	text-align: center;
-}
-
-h2 {
-	font-size: 2rem;
 }
 
 pre {
