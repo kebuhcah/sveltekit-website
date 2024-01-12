@@ -38,13 +38,20 @@ The name of Ethiopia's last emperor (and Rastafarian icon) **<a href="https://en
 
 Now let's take a look some more example. Many of these are words I remembered during my own learning process, but I also owe a lot of this content to D.L. Appleyard's <a href="https://archive.org/details/AppleyardAComparativeApproachToTheAmharicLexicon1977" target="_blank">A Comparative Approach to the Amharic Lexicon (1977)</a>.
 
-## Obviously similar words
+## Straightforward cognates
 - "House" in Amharic is <Lemma language="amh" latin="bet" script="ቤት" punct/>, which is clearly related to <Lemma language="ara" latin="bayt" script="بيت"/> and <Lemma language="heb" latin="bayit" script="בית"/>
-- The Amharic word for "husband", <Lemma language="amh" latin="bal" script="ባል" punct/>, is related to <Lemma language="ara" latin="baʕl" script="بعل"/> and <Lemma language="heb" latin="ba'al" script="בעל"/>
-- "World", <Lemma language="amh" latin="alam" script="ዓለም" punct />, corresponds to <Lemma language="ara" latin="ʕālam" script="عالم"/> and <Lemma language="heb" latin="olam" script="עולם"/> 
+- The Amharic word for "husband", "owner" or "master", <Lemma language="amh" latin="bal" script="ባል" punct/>, is related to <Lemma language="ara" latin="baʕl" script="بعل"/> and <Lemma language="heb" latin="ba'al" script="בעל"/> (and the ancient Levantine deity, <a href="https://en.wikipedia.org/wiki/Baal" target="_blank">Baal</a>)
+- "World", <Lemma language="amh" latin="aläm" script="ዓለም" punct />, corresponds to <Lemma language="ara" latin="ʕālam" script="عالم"/> and <Lemma language="heb" latin="olam" script="עולם"/> 
 - "Star" is <Lemma language="amh" latin="kokäb" script="ኮከብ" punct />, related to <Lemma language="ara" latin="kawkab" script="كوكب"/> and <Lemma language="heb" latin="kokhav" script="כוכב"/> (although the Arabic word more commonly means "planet" now).
 - <Lemma language="amh" latin="sämay" script="ሰማይ" punct />, related to <Lemma language="ara" latin="samāʔ" script="سماء"/> and <Lemma language="heb" latin="shamayim" script="שמים"/>
-- We saw that the roots for "three" is similar in all three languages earlier, and the same is true for most other numbers, although this is clearer in the numbers that are multiples of ten: 10, 40, 50, 60, 70, 80
+- We saw that the root for "three"/"trinity" is similar in the three languages earlier, and most other numbersare related too, although this is clearer in the multiples of ten: 
+  - 10 is <Lemma language="amh" latin="assər" script="ዐሥር" punct />, like <Lemma language="ara" latin="ʕašara" script="عشرة"/> and <Lemma language="heb" latin="esre" script="עשרה"/>
+  - 40 is <Lemma language="amh" latin="arba" script="አርባ" punct />, like <Lemma language="ara" latin="ʔarbaʕa" script="أربعة"/> and <Lemma language="heb" latin="arba'a" script="ארבעה"/>
+  - 50 is <Lemma language="amh" latin="amsa" script="አምሳ" punct />, like <Lemma language="ara" latin="ḵamsa" script="خمسة"/> and <Lemma language="heb" latin="khamisha" script="חמישה"/>
+  - 60 is <Lemma language="amh" latin="səlsa" script="ሥልሳ" punct />, like <Lemma language="ara" latin="sitta" script="ستة"/> and <Lemma language="heb" latin="shisha" script="שישה"/>
+  - 70 is <Lemma language="amh" latin="säba" script="ሰባ" punct />, like <Lemma language="ara" latin="sabʕa" script="سبعة"/> and <Lemma language="heb" latin="shiv'a" script="שבעה"/>
+  - 80 is <Lemma language="amh" latin="sämanya" script="ሰማንያ" punct />, like <Lemma language="ara" latin="ṯamāniya" script="ثمانية"/> and <Lemma language="heb" latin="shmona" script="שמונה"/>
+  - 2, 20, 9 and 90 (<Lemma language="amh" latin="hulätt" script="ሁለት" punct />, <Lemma language="amh" latin="haya" script="ሀያ" punct />, <Lemma language="amh" latin="zäṭäññ" script="ዘጠኝ" /> and <Lemma language="amh" latin="zäṭäna" script="ዘጠና" punct />) come from unrelated roots
 
 ## Different meanings
 - lam (cow)

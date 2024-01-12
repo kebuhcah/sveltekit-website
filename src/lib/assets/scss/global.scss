@@ -53,11 +53,19 @@ p {
 
 a {
 	color: var(--color-theme-1);
-	text-decoration: none;
+}
+
+a[target="_blank"] {
+	font-weight: bold;
+	text-decoration: underline dotted;
+}
+
+a[target="_blank"]::after {
+	content: "↗️";
 }
 
 li {
-	margin-bottom: 0.4rem;
+	margin-top: 0.4rem;
 	line-height: 1.2;
 }
 
