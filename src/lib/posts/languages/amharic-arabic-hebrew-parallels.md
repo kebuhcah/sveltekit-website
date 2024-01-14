@@ -51,10 +51,10 @@ Now let's take a look some more example. Many of these are words I remembered du
   - 60 is <Lemma language="amh" latin="səlsa" script="ሥልሳ" punct />, like <Lemma language="ara" latin="sitta" script="ستة"/> and <Lemma language="heb" latin="shisha" script="שישה"/>
   - 70 is <Lemma language="amh" latin="säba" script="ሰባ" punct />, like <Lemma language="ara" latin="sabʕa" script="سبعة"/> and <Lemma language="heb" latin="shiv'a" script="שבעה"/>
   - 80 is <Lemma language="amh" latin="sämanya" script="ሰማንያ" punct />, like <Lemma language="ara" latin="ṯamāniya" script="ثمانية"/> and <Lemma language="heb" latin="shmona" script="שמונה"/>
-  - 2, 20, 9 and 90 (<Lemma language="amh" latin="hulätt" script="ሁለት" punct />, <Lemma language="amh" latin="haya" script="ሀያ" punct />, <Lemma language="amh" latin="zäṭäññ" script="ዘጠኝ" /> and <Lemma language="amh" latin="zäṭäna" script="ዘጠና" punct />) come from unrelated roots
+  - 2, 20, 9 and 90 (<Lemma language="amh" latin="hulätt" script="ሁለት" punct />, <Lemma language="amh" latin="haya" script="ሀያ" punct />, <Lemma language="amh" latin="zäṭäññ" script="ዘጠኝ" /> and <Lemma language="amh" latin="zäṭäna" script="ዘጠና" />) come from unrelated roots
 
 ## Different meanings
-- lam (cow)
+- The Semitic *l-ḥ-m* root, which means "meat" in Arabic (<Lemma language="ara" latin="laḥm" script="لحم" punct />) but "bread" in Hebrew (<Lemma language="heb" latin="lekhem" script="לחם" punct />), means "cow" in Amharic (<Lemma language="amh" latin="lam" script="ላም" punct />, again with h-dropping)
 - bela (eat)
 - amlak
 - jeb (hyena)
