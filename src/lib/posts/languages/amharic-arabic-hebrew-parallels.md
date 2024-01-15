@@ -27,16 +27,20 @@ I'm still far from conversational in Amharic, but at this point I am able to rea
 (Note: this article will be most enjoyable if you have at least A2 knowledge of Arabic or Hebrew. [Wikipedia Link])
 
 ## What's in a name?
+<section>
 
 Let's start with some Amharic words you're somewhat likely to have heard, even if you didn't know what Amharic was.
 
-**Addis Ababa**, the capital of Ethiopia, means "New Flower". <Lemma language="amh" latin="Addis" script="አዲስ"/> is related to Hebrew <Lemma language="heb" latin="ḥadaš" latin2="chadash" script="חדש" /> and Arabic <Lemma language="ara" latin="ḥadīṯ" script="حديث" punct />. 
+<aside class="right">Additionally, <Lemma language="amh" latin="Abäba" script="አበባ" /> is related to Syriac <Lemma language="syc" latin="habbāḇā" script="ܗܒܒܐ" punct />, which is another example of h-dropping. There aren't any related Arabic or Hebrew words as far as I know.</aside>
 
-(Additionally, <Lemma language="amh" latin="Abäba" script="አበባ" /> is related to Syriac <Lemma language="syc" latin="habbāḇā" script="ܗܒܒܐ" punct />, which is another example of h-dropping. There aren't any related Arabic or Hebrew words as far as I know.)
+**Addis Ababa**, the capital of Ethiopia, means "New Flower". <Lemma language="amh" latin="Addis" script="አዲስ"/> is related to Hebrew <Lemma language="heb" latin="ḥadaš" latin2="chadash" script="חדש" /> and Arabic <Lemma language="ara" latin="ḥadīṯ" script="حديث" punct />. 
 
 The name of Ethiopia's last emperor (and Rastafarian icon) **<a href="https://en.wikipedia.org/wiki/Haile_Selassie" target="_blank">Haile Selassie</a>**, meanwhile, means "Power of the Trinity".  <Lemma language="amh" latin="Səllasé" script="ሥላሴ"/> is related to Hebrew <Lemma language="heb" latin="šaloš" latin2="shalosh" script="שלוש" /> and Arabic <Lemma language="ara" latin="ṯalāṯa" script="ثلاثة" punct/>. Strictly speaking, I guess this should be considered a Ge'ez word, but it exhibits the same sound change as in Amharic — the Arabic "th" sound, which corresponds to Hebrew "sh", becomes an "s" in Amharic.
 
-Now let's take a look some more example. Many of these are words I remembered during my own learning process, but I also owe a lot of this content to D.L. Appleyard's <a href="https://archive.org/details/AppleyardAComparativeApproachToTheAmharicLexicon1977" target="_blank">A Comparative Approach to the Amharic Lexicon (1977)</a>.
+</section>
+
+
+Now let's take a look some more examples. Many of these are words I remembered during my own learning process, but I also owe a lot of this content to D.L. Appleyard's <a href="https://archive.org/details/AppleyardAComparativeApproachToTheAmharicLexicon1977" target="_blank">A Comparative Approach to the Amharic Lexicon (1977)</a>.
 
 ## "Obvious" cognates
 
