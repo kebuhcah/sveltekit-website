@@ -38,12 +38,15 @@ The name of Ethiopia's last emperor (and Rastafarian icon) **<a href="https://en
 
 Now let's take a look some more example. Many of these are words I remembered during my own learning process, but I also owe a lot of this content to D.L. Appleyard's <a href="https://archive.org/details/AppleyardAComparativeApproachToTheAmharicLexicon1977" target="_blank">A Comparative Approach to the Amharic Lexicon (1977)</a>.
 
-## Straightforward cognates
+## "Obvious" cognates
+
+Many common words in Amharic, Arabic and Hebrew are related to each other in a straightforward way, without much change in meaning or particularly weird sound changes:
+
 - "House" in Amharic is <Lemma language="amh" latin="bet" script="ቤት" punct/>, which is clearly related to <Lemma language="ara" latin="bayt" script="بيت"/> and <Lemma language="heb" latin="bayit" script="בית"/>
 - The Amharic word for "husband", "owner" or "master", <Lemma language="amh" latin="bal" script="ባል" punct/>, is related to <Lemma language="ara" latin="baʕl" script="بعل"/> and <Lemma language="heb" latin="ba'al" script="בעל"/> (and the ancient Levantine deity, <a href="https://en.wikipedia.org/wiki/Baal" target="_blank">Baal</a>)
 - "World", <Lemma language="amh" latin="aläm" script="ዓለም" punct />, corresponds to <Lemma language="ara" latin="ʕālam" script="عالم"/> and <Lemma language="heb" latin="olam" script="עולם"/> 
 - "Star" is <Lemma language="amh" latin="kokäb" script="ኮከብ" punct />, related to <Lemma language="ara" latin="kawkab" script="كوكب"/> and <Lemma language="heb" latin="kokhav" script="כוכב"/> (although the Arabic word more commonly means "planet" now).
-- <Lemma language="amh" latin="sämay" script="ሰማይ" punct />, related to <Lemma language="ara" latin="samāʔ" script="سماء"/> and <Lemma language="heb" latin="shamayim" script="שמים"/>
+- "Sky" is <Lemma language="amh" latin="sämay" script="ሰማይ" punct />, related to <Lemma language="ara" latin="samāʔ" script="سماء"/> and <Lemma language="heb" latin="shamayim" script="שמים"/>
 - We saw that the root for "three"/"trinity" is similar in the three languages earlier, and most other numbersare related too, although this is clearer in the multiples of ten: 
   - 10 is <Lemma language="amh" latin="assər" script="ዐሥር" punct />, like <Lemma language="ara" latin="ʕašara" script="عشرة"/> and <Lemma language="heb" latin="esre" script="עשרה"/>
   - 40 is <Lemma language="amh" latin="arba" script="አርባ" punct />, like <Lemma language="ara" latin="ʔarbaʕa" script="أربعة"/> and <Lemma language="heb" latin="arba'a" script="ארבעה"/>
@@ -54,27 +57,31 @@ Now let's take a look some more example. Many of these are words I remembered du
   - 2, 20, 9 and 90 (<Lemma language="amh" latin="hulätt" script="ሁለት" punct />, <Lemma language="amh" latin="haya" script="ሀያ" punct />, <Lemma language="amh" latin="zäṭäññ" script="ዘጠኝ" /> and <Lemma language="amh" latin="zäṭäna" script="ዘጠና" />) come from unrelated roots
 
 ## Different meanings
-what what 
+
+Then again, there are also plenty of cases where the meanings of words have drifted in different directions in different languages.
+
 - The root *l-ḥ-m*, which came to mean "meat" in Arabic (<Lemma language="ara" latin="laḥm" script="لحم" punct />) but "bread" in Hebrew (<Lemma language="heb" latin="lekhem" script="לחם" punct />), means "cow" in Amharic (<Lemma language="amh" latin="lam" script="ላም" punct />, again with dropping of the *h* sound)
 - The Amharic verb meaning "to eat", <Lemma language="amh" latin="bäla" script="በላ" punct />, comes from the same root as the Arabic and Hebrew for "to swallow" - <Lemma language="ara" latin="balaʕa" script="بلع" /> and <Lemma language="heb" latin="bala'" script="בלע" />
-- meshaf
 - hezb (people)
 - amlak
 - The proto-Semitic word for "wolf", which produced Arabic <Lemma language="ara" latin="ḏiʔb" script="ذئب" /> and Hebrew <Lemma language="heb" latin="z'ev" script="זאב" punct />, ended up meaning "hyena" in Amharic instead: <Lemma language="amh" latin="ǧəb" script="ጅብ" punct />, likely due to it being the more common wolf-like animal in the area
 
-
 ## Sound changes
+
+The last example above may have given you pause for a second - wait, the *ǧ* in Amharic ("j" as in "joker", /d͡ʒ/ for real IPA-heads) is related to Arabic *dh* ("th" in "this", /ð/) and Hebrew *z*? What probably happened is that an original *dh* sound - which became *z* in Hebrew, *d* in Aramaic, and stayed the same in Arabic - first became a *d* in Amharic and at some point softened to a *j* sound (like in Brazilian Portuguese, for example).
+
+And there's a lot more where that came from:
+
 - leg (child)
+- tach (under)
 - war (moon)
 - wata (exit), mata (find)
 - twat (morning)
-- tach (under)
-- lay
 
-## Aramaic
+## Loans and mutual influences
+
+In a few cases, rather than descending from the same root, Amharic (or Ge'ez) borrowed words directly from other Semitic languages. In the early days this would have been mostly from Aramaic, and more recently the influence of Arabic has been stronger. There also seem to be instances of influence going the other way.
+
 - Haymanot
 - Ganzab
-
-## Conclusion
-
-Yeah.
+- Meshaf
