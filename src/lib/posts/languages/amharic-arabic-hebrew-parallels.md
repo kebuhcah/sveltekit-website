@@ -20,7 +20,7 @@ excerpt: Amharic is a Semitic language like Arabic and Hebrew. But just how simi
 
 ## Intro
 
-I've been studying various dialects of Arabic on-and-off for about 15 years now, and modern Hebrew for around 10. More recently, I've taken a few stabs at learning other less well-known Semitic languages like Aramaic (mainly Syriac) and the various languages of Ethiopia - mainly Amharic but also a little Ge'ez and a tiny amount of Tigrinya.
+I've been studying various dialects of Arabic on-and-off for about 15 years now, and modern Hebrew for around 10. More recently, I've taken a few stabs at learning other less widely studied Semitic languages like <a href="https://medium.com/sunlanguagetheories/dabbling-diary-aramaic-the-first-world-language-f7477e014bdf" target="_blank">Aramaic</a> and various languages of Ethiopia\* - mostly Amharic but also a little Ge'ez and a tiny amount of Tigrinya.
 
 I'm still far from conversational in Amharic, but at this point I am able to read the alphabet quite well and have a good grasp of the grammar. Since Amharic is much less studied than either Arabic or Hebrew, I've occasionally been asked to explain just how similar it really is to its more famous relatives. This post is basically a cheat-sheet for the next time I'm in that situation.
 
@@ -44,21 +44,21 @@ Now let's take a look some more examples. Many of these are words I remembered d
 
 ## "Obvious" cognates
 
-Many common words in Amharic, Arabic and Hebrew are related to each other in a straightforward way, without much change in meaning or particularly weird sound changes:
+Many common words in Amharic, Arabic and Hebrew are related to each other in a straightforward way, without much change in meaning or weird sound changes:
 
 - "House" in Amharic is <Lemma language="amh" latin="bet" script="ቤት" punct/>, which is clearly related to <Lemma language="ara" latin="bayt" script="بيت"/> and <Lemma language="heb" latin="bayit" script="בית"/>
 - The Amharic word for "husband", "owner" or "master", <Lemma language="amh" latin="bal" script="ባል" punct/>, is related to <Lemma language="ara" latin="baʕl" script="بعل"/> and <Lemma language="heb" latin="ba'al" script="בעל"/> (and the ancient Levantine deity, <a href="https://en.wikipedia.org/wiki/Baal" target="_blank">Baal</a>)
 - "World", <Lemma language="amh" latin="aläm" script="ዓለም" punct />, corresponds to <Lemma language="ara" latin="ʕālam" script="عالم"/> and <Lemma language="heb" latin="olam" script="עולם"/> 
 - "Star" is <Lemma language="amh" latin="kokäb" script="ኮከብ" punct />, related to <Lemma language="ara" latin="kawkab" script="كوكب"/> and <Lemma language="heb" latin="kokhav" script="כוכב"/> (although the Arabic word more commonly means "planet" now).
 - "Sky" is <Lemma language="amh" latin="sämay" script="ሰማይ" punct />, related to <Lemma language="ara" latin="samāʔ" script="سماء"/> and <Lemma language="heb" latin="shamayim" script="שמים"/>
-- We saw that the root for "three"/"trinity" is similar in the three languages earlier, and most other numbersare related too, although this is clearer in the multiples of ten: 
+- We saw that the root for "three"/"trinity" is similar in the three languages earlier, and most other numbers are related too, which is clearest when you look at the multiples of ten: 
   - 10 is <Lemma language="amh" latin="assər" script="ዐሥር" punct />, like <Lemma language="ara" latin="ʕašara" script="عشرة"/> and <Lemma language="heb" latin="esre" script="עשרה"/>
   - 40 is <Lemma language="amh" latin="arba" script="አርባ" punct />, like <Lemma language="ara" latin="ʔarbaʕa" script="أربعة"/> and <Lemma language="heb" latin="arba'a" script="ארבעה"/>
   - 50 is <Lemma language="amh" latin="amsa" script="አምሳ" punct />, like <Lemma language="ara" latin="ḵamsa" script="خمسة"/> and <Lemma language="heb" latin="khamisha" script="חמישה"/>
-  - 60 is <Lemma language="amh" latin="səlsa" script="ሥልሳ" punct />, like <Lemma language="ara" latin="sitta" script="ستة"/> and <Lemma language="heb" latin="shisha" script="שישה"/>
+  - 60 is <Lemma language="amh" latin="səlsa" script="ሥልሳ" punct />, sort of like <Lemma language="ara" latin="sitta" script="ستة"/> and <Lemma language="heb" latin="shisha" script="שישה"/> (the original root was probably <em>s-d-s</em>)
   - 70 is <Lemma language="amh" latin="säba" script="ሰባ" punct />, like <Lemma language="ara" latin="sabʕa" script="سبعة"/> and <Lemma language="heb" latin="shiv'a" script="שבעה"/>
   - 80 is <Lemma language="amh" latin="sämanya" script="ሰማንያ" punct />, like <Lemma language="ara" latin="ṯamāniya" script="ثمانية"/> and <Lemma language="heb" latin="shmona" script="שמונה"/>
-  - 2, 20, 9 and 90 (<Lemma language="amh" latin="hulätt" script="ሁለት" punct />, <Lemma language="amh" latin="haya" script="ሀያ" punct />, <Lemma language="amh" latin="zäṭäññ" script="ዘጠኝ" /> and <Lemma language="amh" latin="zäṭäna" script="ዘጠና" />) come from unrelated roots
+  - meanwhile the words for 2, 20, 9 and 90 (<Lemma language="amh" latin="hulätt" script="ሁለት" punct />, <Lemma language="amh" latin="haya" script="ሀያ" punct />, <Lemma language="amh" latin="zäṭäññ" script="ዘጠኝ" /> and <Lemma language="amh" latin="zäṭäna" script="ዘጠና" />) come from unrelated roots
 
 ## Different meanings
 
@@ -72,15 +72,24 @@ Then again, there are also plenty of cases where the meanings of words have drif
 
 ## Sound changes
 
-The last example above may have given you pause for a second - wait, the *ǧ* in Amharic ("j" as in "joker", /d͡ʒ/ for real IPA-heads) is related to Arabic *dh* ("th" in "this", /ð/) and Hebrew *z*? What probably happened is that an original *dh* sound - which became *z* in Hebrew, *d* in Aramaic, and stayed the same in Arabic - first became a *d* in Amharic and at some point softened to a *j* sound (like in Brazilian Portuguese, for example).
+The last example above may have given you pause for a second - wait, the *ǧ* in Amharic ("j" as in "joker", /d͡ʒ/ for real IPA-heads) is related to Arabic *dh* ("th" in "this", /ð/) and Hebrew *z*? 
+
+That's right - what probably happened is that an original *dh* sound - which became *z* in Hebrew, *d* in Aramaic, and stayed the same in Arabic - first became a *d* in Amharic and at some point softened to a *j* sound (like in Brazilian Portuguese, for example).
+
+<section>
 
 And there's a lot more where that came from:
 
-- leg (child)
-- tach (under)
-- war (moon)
-- wata (exit), mata (find)
-- twat (morning)
+- <Lemma language="amh" latin="əǧǧ" script="እጅ" punct />, the Amharic word for "hand", also shows the softening of the final <em>d</em> that was preserved in Arabic <Lemma language="ara" latin="yad" script="يد" /> and Hebrew <Lemma language="heb" latin="yad" script="יד" />
+- <Lemma language="amh" latin="ləǧǧ" script="ልጅ" punct />, meaning "boy/son/child", has a similar relationship to <Lemma language="ara" latin="walad" script="ولد" /> and <Lemma language="heb" latin="yeled" script="ילד" punct />, but also dropping the <em>w/y</em> at the beginning
+<aside class="right"><Lemma language="amh" latin="wär" script="ወር" punct />/<Lemma language="heb" latin="yaréakh" script="ירח" /> is possibly also related to the Arabic word for "history", <Lemma language="ara" latin="tārīḵ" script="تاريخ" /> (<a href="https://en.wiktionary.org/wiki/تاريخ#Etymology" target="_blank">Wiktionary</a>)</aside>
+- Speaking of the proto-Semitic <em>w</em> which became <em>y</em> in Hebrew: that sound change also explains how <Lemma language="amh" latin="wär" script="ወር" /> ("month") corresponds to Hebrew <Lemma language="heb" latin="yaréakh" script="ירח" /> ("moon")
+- Just like the <em>d</em> sound, <em>t</em> can also soften to a <em>č</em>, which is how you can tell that the Amharic word for "under", <Lemma language="amh" latin="tač" script="ታች" punct />, comes from the same root as Arabic <Lemma language="ara" latin="taḥt" script="تحت" /> and Hebrew <Lemma language="heb" latin="tákhat" script="תחת" />
+- Another tricky sound change is that some emphatic consonants merged in Amharic (but not Ge'ez), so for example the Amharic <Lemma language="amh" latin="ṭ" script="ጥ" /> sound sometimes corresponds to an Arabic <Lemma language="ara" latin="ṣ" script="ص" /> and Hebrew <Lemma language="heb" latin="ts" script="צ" punct />. This is how you get cognate pairs like Amharic <Lemma language="amh" latin="wäṭa" script="ወጣ" /> and Hebrew <Lemma language="heb" latin="yatsa" script="יצא" punct />, which both mean "to go out" (again with the w/y switch)
+- Another such pair is Amharic <Lemma language="amh" latin="mäṭa" script="መጣ" /> ("to come") and Hebrew <Lemma language="heb" latin="matsa" script="מצא" /> ("to find"), which you can tell are related despite the difference in meaning
+- For an Amharic vs. Arabic example, we have <Lemma language="amh" latin="ṭwat" script="ጡዋት" punct /> and <Lemma language="ara" latin="ṣabāḥ" script="صباح" punct />, both meaning "morning". There's a lot going on here besides the <em>ṭ/ṣ</em> switch too - an original <em>b</em> became <em>w</em> in Amharic, and then a <em>t</em> was inserted to replace the missing <em>h</em> (not that strange when you consider t/h alternations that appear in Arabic and Hebrew)
+
+</section>
 
 ## Loans and mutual influences
 
