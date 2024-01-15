@@ -31,7 +31,7 @@ I'm still far from conversational in Amharic, but at this point I am able to rea
 
 Let's start with some Amharic words you're somewhat likely to have heard, even if you didn't know what Amharic was.
 
-<aside class="right">Additionally, <Lemma language="amh" latin="Abäba" script="አበባ" /> is related to Syriac <Lemma language="syc" latin="habbāḇā" script="ܗܒܒܐ" punct />, which is another example of h-dropping. There aren't any related Arabic or Hebrew words as far as I know.</aside>
+<aside class="right"><Lemma language="amh" latin="Abäba" script="አበባ" /> is also related to Syriac <Lemma language="syc" latin="habbāḇā" script="ܗܒܒܐ" punct />, which is another example of h&#8209;dropping. There aren't any related Arabic or Hebrew words as far as I know.</aside>
 
 **Addis Ababa**, the capital of Ethiopia, means "New Flower". <Lemma language="amh" latin="Addis" script="አዲስ"/> is related to Hebrew <Lemma language="heb" latin="ḥadaš" latin2="chadash" script="חדש" /> and Arabic <Lemma language="ara" latin="ḥadīṯ" script="حديث" punct />. 
 

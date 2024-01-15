@@ -83,9 +83,10 @@ aside {
 	max-width: 40%;
 	border-style: solid;
 	border-width: 1px;
-	padding: 0.5rem 1rem;
+	padding: 0.5rem 0.5rem 0.5rem 1rem;
 	margin: 1rem;
-	text-align: justify;
+	text-align: left;
+	font-size: 80%;
 }
 
 aside.right {
