@@ -54,13 +54,13 @@ Now let's take a look some more example. Many of these are words I remembered du
   - 2, 20, 9 and 90 (<Lemma language="amh" latin="hulätt" script="ሁለት" punct />, <Lemma language="amh" latin="haya" script="ሀያ" punct />, <Lemma language="amh" latin="zäṭäññ" script="ዘጠኝ" /> and <Lemma language="amh" latin="zäṭäna" script="ዘጠና" />) come from unrelated roots
 
 ## Different meanings
-- The Semitic *l-ḥ-m* root, which means "meat" in Arabic (<Lemma language="ara" latin="laḥm" script="لحم" punct />) but "bread" in Hebrew (<Lemma language="heb" latin="lekhem" script="לחם" punct />), means "cow" in Amharic (<Lemma language="amh" latin="lam" script="ላም" punct />, again with h-dropping)
-- bela (eat)
-- amlak
-- jeb (hyena)
+what what 
+- The root *l-ḥ-m*, which came to mean "meat" in Arabic (<Lemma language="ara" latin="laḥm" script="لحم" punct />) but "bread" in Hebrew (<Lemma language="heb" latin="lekhem" script="לחם" punct />), means "cow" in Amharic (<Lemma language="amh" latin="lam" script="ላም" punct />, again with dropping of the *h* sound)
+- The Amharic verb meaning "to eat", <Lemma language="amh" latin="bäla" script="በላ" punct />, comes from the same root as the Arabic and Hebrew for "to swallow" - <Lemma language="ara" latin="balaʕa" script="بلع" /> and <Lemma language="heb" latin="bala'" script="בלע" />
 - meshaf
 - hezb (people)
-- sahay
+- amlak
+- The proto-Semitic word for "wolf", which produced Arabic <Lemma language="ara" latin="ḏiʔb" script="ذئب" /> and Hebrew <Lemma language="heb" latin="z'ev" script="זאב" punct />, ended up meaning "hyena" in Amharic instead: <Lemma language="amh" latin="ǧəb" script="ጅብ" punct />, likely due to it being the more common wolf-like animal in the area
 
 
 ## Sound changes
@@ -74,10 +74,6 @@ Now let's take a look some more example. Many of these are words I remembered du
 ## Aramaic
 - Haymanot
 - Ganzab
-
-### Grammar
-
-Bet, Bal, Bala.
 
 ## Conclusion
 
