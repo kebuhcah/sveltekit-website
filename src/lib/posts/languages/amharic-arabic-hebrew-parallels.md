@@ -1,5 +1,5 @@
 ---
-title: "Amharic parallels with Arabic and Hebrew"
+title: "Amharic parallels with Arabic and Hebrew — Vocabulary"
 date: "2023-12-04"
 updated: "2024-01-08"
 categories: 
@@ -20,11 +20,14 @@ excerpt: Amharic is a Semitic language like Arabic and Hebrew. But just how simi
 
 ## Intro
 
-I've been studying various dialects of Arabic on-and-off for about 15 years now, and modern Hebrew for around 10. More recently, I've taken a few stabs at learning other less widely studied Semitic languages like <a href="https://medium.com/sunlanguagetheories/dabbling-diary-aramaic-the-first-world-language-f7477e014bdf" target="_blank">Aramaic</a> and various languages of Ethiopia\* - mostly Amharic but also a little Ge'ez and a tiny amount of Tigrinya.
+<section>
+I've been studying various dialects of Arabic on-and-off for about 15 years now, and modern Hebrew for around 10. More recently, I've taken a few stabs at learning other less widely studied Semitic languages like <a href="https://medium.com/sunlanguagetheories/dabbling-diary-aramaic-the-first-world-language-f7477e014bdf" target="_blank">Aramaic</a> and various languages of Ethiopia* - mostly Amharic but also a little Ge'ez and a tiny amount of Tigrinya.
 
 I'm still far from conversational in Amharic, but at this point I am able to read the alphabet quite well and have a good grasp of the grammar. Since Amharic is much less studied than either Arabic or Hebrew, I've occasionally been asked to explain just how similar it really is to its more famous relatives. This post is basically a cheat-sheet for the next time I'm in that situation.
 
+
 (Note: this article will be most enjoyable if you have at least A2 knowledge of Arabic or Hebrew. [Wikipedia Link])
+</section>
 
 ## What's in a name?
 <section>
@@ -36,7 +39,6 @@ Let's start with some Amharic words you're somewhat likely to have heard, even i
 **Addis Ababa**, the capital of Ethiopia, means "New Flower". <Lemma language="amh" latin="Addis" script="አዲስ"/> is related to Hebrew <Lemma language="heb" latin="ḥadaš" latin2="chadash" script="חדש" /> and Arabic <Lemma language="ara" latin="ḥadīṯ" script="حديث" punct />. 
 
 The name of Ethiopia's last emperor (and Rastafarian icon) **<a href="https://en.wikipedia.org/wiki/Haile_Selassie" target="_blank">Haile Selassie</a>**, meanwhile, means "Power of the Trinity".  <Lemma language="amh" latin="Səllasé" script="ሥላሴ"/> is related to Hebrew <Lemma language="heb" latin="šaloš" latin2="shalosh" script="שלוש" /> and Arabic <Lemma language="ara" latin="ṯalāṯa" script="ثلاثة" punct/>. Strictly speaking, I guess this should be considered a Ge'ez word, but it exhibits the same sound change as in Amharic — the Arabic "th" sound, which corresponds to Hebrew "sh", becomes an "s" in Amharic.
-
 </section>
 
 
@@ -64,21 +66,21 @@ Many common words in Amharic, Arabic and Hebrew are related to each other in a s
 
 Then again, there are also plenty of cases where the meanings of words have drifted in different directions in different languages.
 
-- The root *l-ḥ-m*, which came to mean "meat" in Arabic (<Lemma language="ara" latin="laḥm" script="لحم" punct />) but "bread" in Hebrew (<Lemma language="heb" latin="lekhem" script="לחם" punct />), means "cow" in Amharic (<Lemma language="amh" latin="lam" script="ላም" punct />, again with dropping of the *h* sound)
+- The root *l-ḥ-m*, which came to mean "meat" in Arabic (<Lemma language="ara" latin="laḥm" script="لحم" punct />) but "bread" in Hebrew (<Lemma language="heb" latin="lékhem" script="לחם" punct />), means "cow" in Amharic (<Lemma language="amh" latin="lam" script="ላም" punct />, again with dropping of the *h* sound)
 - The Amharic verb meaning "to eat", <Lemma language="amh" latin="bäla" script="በላ" punct />, comes from the same root as the Arabic and Hebrew for "to swallow" - <Lemma language="ara" latin="balaʕa" script="بلع" /> and <Lemma language="heb" latin="bala'" script="בלע" />
-- hezb (people)
-- amlak
+- <Lemma language="amh" latin="həzb" script="ሕዝብ" punct />, which means "people" or "crowd" in Amharic (and also "nation" or "tribe" in Ge'ez), is related to Arabic <Lemma language="ara" latin="ḥizb" script="حزب" /> which now mainly means "political party" (as in <em>Hezbollah</em>, "Party of God")
+- One of the Amharic words for "god", <Lemma language="amh" latin="ämlak" script="አምላክ" punct />, shares the same <em>m-l-k</em> root with <Lemma language="ara" latin="malik" script="ملک" /> and <Lemma language="heb" latin="mélekh" script="מלך" punct />, which both mean "king"
 - The proto-Semitic word for "wolf", which produced Arabic <Lemma language="ara" latin="ḏiʔb" script="ذئب" /> and Hebrew <Lemma language="heb" latin="z'ev" script="זאב" punct />, ended up meaning "hyena" in Amharic instead: <Lemma language="amh" latin="ǧəb" script="ጅብ" punct />, likely due to it being the more common wolf-like animal in the area
 
 ## Sound changes
 
-The last example above may have given you pause for a second - wait, the *ǧ* in Amharic ("j" as in "joker", /d͡ʒ/ for real IPA-heads) is related to Arabic *dh* ("th" in "this", /ð/) and Hebrew *z*? 
+That last example above may have given you pause - wait, the *ǧ* in Amharic ("j" as in "joker", /d͡ʒ/ for real IPA-heads) is related to Arabic *dh* ("th" in "this", i.e. /ð/) and Hebrew *z*? 
 
-That's right - what probably happened is that an original *dh* sound - which became *z* in Hebrew, *d* in Aramaic, and stayed the same in Arabic - first became a *d* in Amharic and at some point softened to a *j* sound (like in Brazilian Portuguese, for example).
+That's right. What probably happened is that an original *dh* sound - which became *z* in Hebrew, *d* in Aramaic, and stayed the same in Arabic - first became a *d* in Amharic and at some point softened to a *j* sound (like in Brazilian Portuguese, for example).
 
 <section>
 
-And there's a lot more where that came from:
+There's a lot more where that came from:
 
 - <Lemma language="amh" latin="əǧǧ" script="እጅ" punct />, the Amharic word for "hand", also shows the softening of the final <em>d</em> that was preserved in Arabic <Lemma language="ara" latin="yad" script="يد" /> and Hebrew <Lemma language="heb" latin="yad" script="יד" />
 - <Lemma language="amh" latin="ləǧǧ" script="ልጅ" punct />, meaning "boy/son/child", has a similar relationship to <Lemma language="ara" latin="walad" script="ولد" /> and <Lemma language="heb" latin="yeled" script="ילד" punct />, but also dropping the <em>w/y</em> at the beginning
@@ -95,6 +97,17 @@ And there's a lot more where that came from:
 
 In a few cases, rather than descending from the same root, Amharic (or Ge'ez) borrowed words directly from other Semitic languages. In the early days this would have been mostly from Aramaic, and more recently the influence of Arabic has been stronger. There also seem to be instances of influence going the other way.
 
-- Haymanot
-- Ganzab
+- The Amharic word for "religion", <Lemma language="amh" latin="haymanot" script="ሃይማኖት" punct />, is a loan from Syriac <Lemma language="syc" latin="haymānūṯā" script="ܗܝܡܢܘܬܐ" punct />, which means "faith", as do its cognates <Lemma language="ara" latin="īmān" script="إيمان" /> and <Lemma language="heb" latin="emuna" script="אמונה" />
+- <Lemma language="amh" latin="gänzäb" script="ገንዘብ" /> ("money") ultimately comes from an Old Iranian word <em>*ganza</em> ("treasure"), likely via Syriac <Lemma language="syc" latin="ganzā" script="ܓܢܙܐ" /> (later <Lemma language="syc" latin="gazzā" script="ܓܙܐ" punct/>) and also related to Arabic <Lemma language="ara" latin="kanz" script="كنز" /> and Hebrew <Lemma language="heb" latin="g'nazim" script="גנזים" punct />, not to mention Hungarian <em>kincs</em> and Spanish <em>alcancía</em> ("cashbox")
 - Meshaf
+- Minbar
+
+## Final notes
+
+<section>
+<aside class="right">*But certainly much closer than languages in other branches of the <a href="https://en.wikipedia.org/wiki/Afroasiatic_languages" target="_blank">Afroasiatic language family</a> like Somali, Oromo, Hausa or Berber.</aside>
+
+So there you have it, about what you might expect from a somewhat distant relative* of Arabic and Hebrew, with obvious signs of shared origins but also plenty of differences from thousands of years of separation — and with a dash of mutual cultural influence to top it off.
+
+At some point I'll be putting together some notes on how the *grammar* of Amharic compares to Arabic and Hebrew as well, and there'll be a similar mix of parallels and divergences there too. Thanks for reading!
+</section>
