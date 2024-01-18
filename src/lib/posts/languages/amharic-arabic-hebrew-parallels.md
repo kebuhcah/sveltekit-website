@@ -7,7 +7,7 @@ categories:
   - "arabic"
   - "hebrew"
   - "semitic languages"
-  - "language"
+  - "linguistics"
 coverImage: "/images/filler.jpg"
 coverWidth: 16
 coverHeight: 9

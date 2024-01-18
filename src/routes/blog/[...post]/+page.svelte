@@ -36,27 +36,25 @@
 	<h1>{title}</h1>
 
 	<div class="text-column">
-		<svelte:component this={PostContent} />
-
-		{#if categories}
-			<aside class="post-footer">
-				<h2>Categories:</h2>
-				<ul>
-					{#each categories as category}
-						<li>
-							<a href="/blog/category/{category}/">
-								{category}
-							</a>
-						</li>
-					{/each}
-				</ul>
-			</aside>
-		{/if}
-
 		<div class="meta">
 			<b>Published:</b>
 			{date} | <b>Updated:</b>
 			{updated}
 		</div>
+		{#if categories}
+			<header class="post-header">
+				<div class="categories">
+					{#each categories as category}
+						<span class="category">
+							<a href="/blog/category/{category}/">
+								{category}
+							</a>
+						</span>
+					{/each}
+				</div>
+			</header>
+		{/if}
+
+		<svelte:component this={PostContent} />		
 	</div>
 </article>
