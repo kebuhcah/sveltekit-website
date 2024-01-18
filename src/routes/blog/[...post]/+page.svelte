@@ -23,15 +23,15 @@
 </svelte:head>
 
 <article class="post">
-	<!-- You might want to add an alt frontmatter attribute. If not, leaving alt blank here works, too. -->
-	<img
+	<!-- You might want to add an alt frontmatter attribute. If not, leaving alt blank here works, too. 
+	<!-- <img
 		class="cover-image"
 		src={coverImage}
 		alt=""
 		style="aspect-ratio: {coverWidth} / {coverHeight};"
 		width={coverWidth}
 		height={coverHeight}
-	/>
+	/>-->
 
 	<h1>{title}</h1>
 
