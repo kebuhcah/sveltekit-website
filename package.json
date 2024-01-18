@@ -13,11 +13,15 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"dependencies": {
+		"@agentofuser/rehype-section": "^1.0.5",
+		"dayjs": "^1.11.10",
 		"mdsvex": "^0.10.6",
 		"rehype-autolink-headings": "^6.1.1",
-		"rehype-slug": "^5.1.0"	},
+		"rehype-slug": "^5.1.0"
+	},
 	"devDependencies": {
 		"@fontsource/fira-mono": "^4.5.10",
+		"@hbsnow/rehype-sectionize": "^1.0.7",
 		"@neoconfetti/svelte": "^1.0.0",
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/adapter-vercel": "^3.0.0",

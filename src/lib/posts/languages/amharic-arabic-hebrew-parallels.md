@@ -20,17 +20,14 @@ excerpt: Amharic is a Semitic language like Arabic and Hebrew. But just how simi
 
 ## Intro
 
-<section>
 I've been studying various dialects of Arabic on-and-off for about 15 years now, and modern Hebrew for around 10. More recently, I've taken a few stabs at learning other less widely studied Semitic languages like <a href="https://medium.com/sunlanguagetheories/dabbling-diary-aramaic-the-first-world-language-f7477e014bdf" target="_blank">Aramaic</a> and various languages of Ethiopia* - mostly Amharic but also a little Ge'ez and a tiny amount of Tigrinya.
 
 I'm still far from conversational in Amharic, but at this point I am able to read the alphabet quite well and have a good grasp of the grammar. Since Amharic is much less studied than either Arabic or Hebrew, I've occasionally been asked to explain just how similar it really is to its more famous relatives. This post is basically a cheat-sheet for the next time I'm in that situation.
 
 
 (Note: this article will be most enjoyable if you have at least A2 knowledge of Arabic or Hebrew. [Wikipedia Link])
-</section>
 
 ## What's in a name?
-<section>
 
 Let's start with some Amharic words you're somewhat likely to have heard, even if you didn't know what Amharic was.
 
@@ -39,7 +36,6 @@ Let's start with some Amharic words you're somewhat likely to have heard, even i
 **Addis Ababa**, the capital of Ethiopia, means "New Flower". <Lemma language="amh" latin="Addis" script="አዲስ"/> is related to Hebrew <Lemma language="heb" latin="ḥadaš" latin2="chadash" script="חדש" /> and Arabic <Lemma language="ara" latin="ḥadīṯ" script="حديث" punct />. 
 
 The name of Ethiopia's last emperor (and Rastafarian icon) **<a href="https://en.wikipedia.org/wiki/Haile_Selassie" target="_blank">Haile Selassie</a>**, meanwhile, means "Power of the Trinity".  <Lemma language="amh" latin="Səllasé" script="ሥላሴ"/> is related to Hebrew <Lemma language="heb" latin="šaloš" latin2="shalosh" script="שלוש" /> and Arabic <Lemma language="ara" latin="ṯalāṯa" script="ثلاثة" punct/>. Strictly speaking, I guess this should be considered a Ge'ez word, but it exhibits the same sound change as in Amharic — the Arabic "th" sound, which corresponds to Hebrew "sh", becomes an "s" in Amharic.
-</section>
 
 
 Now let's take a look some more examples. Many of these are words I remembered during my own learning process, but I also owe a lot of this content to D.L. Appleyard's <a href="https://archive.org/details/AppleyardAComparativeApproachToTheAmharicLexicon1977" target="_blank">A Comparative Approach to the Amharic Lexicon (1977)</a>.
@@ -78,8 +74,6 @@ That last example above may have given you pause - wait, the *ǧ* in Amharic ("j
 
 That's right. What probably happened is that an original *dh* sound - which became *z* in Hebrew, *d* in Aramaic, and stayed the same in Arabic - first became a *d* in Amharic and at some point softened to a *j* sound (like in Brazilian Portuguese, for example).
 
-<section>
-
 There's a lot more where that came from:
 
 - <Lemma language="amh" latin="əǧǧ" script="እጅ" punct />, the Amharic word for "hand", also shows the softening of the final <em>d</em> that was preserved in Arabic <Lemma language="ara" latin="yad" script="يد" /> and Hebrew <Lemma language="heb" latin="yad" script="יד" />
@@ -90,8 +84,6 @@ There's a lot more where that came from:
 - Another tricky sound change is that some emphatic consonants merged in Amharic (but not Ge'ez), so for example the Amharic <Lemma language="amh" latin="ṭ" script="ጥ" /> sound sometimes corresponds to an Arabic <Lemma language="ara" latin="ṣ" script="ص" /> and Hebrew <Lemma language="heb" latin="ts" script="צ" punct />. This is how you get cognate pairs like Amharic <Lemma language="amh" latin="wäṭa" script="ወጣ" /> and Hebrew <Lemma language="heb" latin="yatsa" script="יצא" punct />, which both mean "to go out" (again with the w/y switch)
 - Another such pair is Amharic <Lemma language="amh" latin="mäṭa" script="መጣ" /> ("to come") and Hebrew <Lemma language="heb" latin="matsa" script="מצא" /> ("to find"), which you can tell are related despite the difference in meaning
 - For an Amharic vs. Arabic example, we have <Lemma language="amh" latin="ṭwat" script="ጡዋት" punct /> and <Lemma language="ara" latin="ṣabāḥ" script="صباح" punct />, both meaning "morning". There's a lot going on here besides the <em>ṭ/ṣ</em> switch too - an original <em>b</em> became <em>w</em> in Amharic, and then a <em>t</em> was inserted to replace the missing <em>h</em> (not that strange when you consider t/h alternations that appear in Arabic and Hebrew)
-
-</section>
 
 ## Loans and mutual influences
 
@@ -104,10 +96,8 @@ In a few cases, rather than descending from the same root, Amharic (or Ge'ez) bo
 
 ## Final notes
 
-<section>
 <aside class="right">*But certainly much closer than languages in other branches of the <a href="https://en.wikipedia.org/wiki/Afroasiatic_languages" target="_blank">Afroasiatic language family</a> like Somali, Oromo, Hausa or Berber.</aside>
 
 So there you have it, about what you might expect from a somewhat distant relative* of Arabic and Hebrew, with obvious signs of shared origins but also plenty of differences from thousands of years of separation — and with a dash of mutual cultural influence to top it off.
 
 At some point I'll be putting together some notes on how the *grammar* of Amharic compares to Arabic and Hebrew as well, and there'll be a similar mix of parallels and divergences there too. Thanks for reading!
-</section>
