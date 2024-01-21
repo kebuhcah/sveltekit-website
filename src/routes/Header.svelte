@@ -22,11 +22,14 @@
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 				<a href="/about">About</a>
 			</li>
-			<li aria-current={$page.url.pathname.startsWith('/blog') ? 'page' : undefined}>
-				<a href="/blog">Blog</a>
+			<li aria-current={$page.url.pathname === '/blog/category/languages' ? 'page' : undefined}>
+				<a href="/blog/category/languages">Languages</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/venn' ? 'page' : undefined}>
-				<a href="/venn">Venn</a>
+			<li aria-current={$page.url.pathname === '/blog/category/technology' ? 'page' : undefined}>
+				<a href="/blog/category/technology">Technology</a>
+			</li>
+			<li aria-current={$page.url.pathname === '/blog/category/history' ? 'page' : undefined}>
+				<a href="/blog/category/history">History</a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
