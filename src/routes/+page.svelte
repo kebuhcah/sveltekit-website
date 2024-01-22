@@ -1,53 +1,26 @@
+<script>
+	import PostsList from '$lib/components/PostsList.svelte';
+	import Pagination from '$lib/components/Pagination.svelte';
+
+	export let data;
+</script>
+
 <svelte:head>
-	<title>Blog Test</title>
-	<meta name="description" content="Blog Test" />
+	<title>Sun Language Theories</title>
+	<meta name="description" content="Sun Language Theories" />
 </svelte:head>
 
-<h1>𐩳𐩢𐩺</h1>
+<h1 class="title">𐩳𐩢𐩺</h1>
+<h1 class="title">Sun Language Theories</h1>
+<h2 class="title">by Kevin Fei Sun</h2>
 
-<div class="grid">
-	<div class="card">
-		<div class="card-header">
-			<h1>𐩳</h1>
-		</div>
-		<div class="card-body">Sun.</div>
-	</div>
-	<div class="card">
-		<div class="card-header">
-			<h1>𐩢</h1>
-		</div>
-		<div class="card-body">Language.</div>
-	</div>
-	<div class="card">
-		<div class="card-header">
-			<h1>𐩺</h1>
-		</div>
-		<div class="card-body">Theories.</div>
-	</div>
-</div>
+<PostsList posts={data.posts} />
+
+<Pagination currentPage={1} totalPosts={data.total} />
 
 <style>
-	.grid {
-		width: 100%;
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		grid-gap: 12px;
-	}
-
-	.card {
-		border: solid;
-		width: 100%;
-		margin: 0;
-	}
-
-	.card-header {
-		border: solid;
-		margin: -2px;
-	}
-
-	.card-body {
-		border: solid;
-		margin: -2px;
-		padding: 2em;
+	.title {
+		text-align: center;
+		margin: 0.2rem;
 	}
 </style>

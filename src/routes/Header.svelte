@@ -19,9 +19,6 @@
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/">Home</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">About</a>
-			</li>
 			<li aria-current={$page.url.pathname === '/blog/category/languages' ? 'page' : undefined}>
 				<a href="/blog/category/languages">Languages</a>
 			</li>
@@ -30,6 +27,9 @@
 			</li>
 			<li aria-current={$page.url.pathname === '/blog/category/history' ? 'page' : undefined}>
 				<a href="/blog/category/history">History</a>
+			</li>
+			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
+				<a href="/about">About</a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
