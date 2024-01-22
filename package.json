@@ -13,7 +13,6 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"dependencies": {
-		"@agentofuser/rehype-section": "^1.0.5",
 		"dayjs": "^1.11.10",
 		"mdsvex": "^0.10.6",
 		"rehype-autolink-headings": "^6.1.1",
