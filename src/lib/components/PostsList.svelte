@@ -3,7 +3,6 @@
 	 * @type {any[]}
 	 */
 	 export let posts = [];
-	 console.log(posts);
 </script>
 
 <div class="posts-list">
