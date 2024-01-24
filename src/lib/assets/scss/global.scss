@@ -144,6 +144,7 @@ button:focus:not(:focus-visible) {
 .categories {
 	display: flex;
 	justify-content: center;
+	align-items: start;
 }
 
 .category {
@@ -152,7 +153,6 @@ button:focus:not(:focus-visible) {
 	border-width: 1px;
 	padding: 0.25rem 0.5rem;
 	margin: 0.25rem;
-	align-self: start;
 }
 
 .visually-hidden {
