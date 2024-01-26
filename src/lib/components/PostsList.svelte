@@ -23,6 +23,7 @@
 				</a>
 			</article>
 			<p>{post.excerpt}</p>
+			<hr />
 			<div class="categories">
 				{#each post.categories as category}
 					<span class="category">
@@ -41,6 +42,7 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
+		align-items: start;
 	}
 
 	.post-card {
@@ -60,5 +62,9 @@
 		flex-wrap: wrap;
 		justify-content: left;
 		margin-bottom: 0.5rem;
+	}
+
+	hr {
+		margin: 0 -1.5rem 0.5rem;
 	}
 </style>
