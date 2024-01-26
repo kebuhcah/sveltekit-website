@@ -19,13 +19,13 @@
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/">Home</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/blog/category/languages' ? 'page' : undefined}>
+			<li class="mobile-hide" aria-current={$page.url.pathname === '/blog/category/languages' ? 'page' : undefined}>
 				<a href="/blog/category/languages">Languages</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/blog/category/technology' ? 'page' : undefined}>
+			<li class="mobile-hide" aria-current={$page.url.pathname === '/blog/category/technology' ? 'page' : undefined}>
 				<a href="/blog/category/technology">Technology</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/blog/category/history' ? 'page' : undefined}>
+			<li class="mobile-hide" aria-current={$page.url.pathname === '/blog/category/history' ? 'page' : undefined}>
 				<a href="/blog/category/history">History</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>

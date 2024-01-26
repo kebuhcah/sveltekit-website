@@ -29,11 +29,9 @@ body {
 	background-attachment: fixed;
 	background-color: var(--color-bg-1);
 	background-size: 100vw 100vh;
-	background-image: radial-gradient(
-			farthest-corner at 50% 50%,
+	background-image: radial-gradient(farthest-corner at 50% 50%,
 			rgba(255, 255, 255, 0.25) 0%,
-			rgba(255, 255, 255, 0) 100%
-		),
+			rgba(255, 255, 255, 0) 100%),
 		linear-gradient(180deg, var(--color-bg-0) 0%, var(--color-bg-1) 15%, var(--color-bg-2) 50%);
 }
 
@@ -133,6 +131,12 @@ button:focus:not(:focus-visible) {
 @media (min-width: 720px) {
 	h1 {
 		font-size: 2.4rem;
+	}
+}
+
+@media (max-width: 720px) {
+	.mobile-hide {
+		display: none;
 	}
 }
 
