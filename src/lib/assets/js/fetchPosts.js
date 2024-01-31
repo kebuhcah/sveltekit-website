@@ -34,7 +34,8 @@ const fetchPosts = async ({ offset = 0, limit = postsPerPage, category = '' } = 
         coverHeight: post.coverHeight,
         date: post.date,
         categories: post.categories,
-    }))
+        hidden: post.hidden
+    })).filter(post => post.hidden !== true)
 
     return {
         posts: sortedPosts
