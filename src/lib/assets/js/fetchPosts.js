@@ -1,4 +1,5 @@
 import { postsPerPage } from '$lib/config'
+import fs from "fs"
 
 const fetchPosts = async ({ offset = 0, limit = postsPerPage, category = '' } = {}) => {
 
@@ -7,11 +8,14 @@ const fetchPosts = async ({ offset = 0, limit = postsPerPage, category = '' } = 
             const { metadata } = await resolver()
             const pathParts = path.split('/')
             const slug = pathParts.slice(pathParts.indexOf('posts') + 1).join('/').slice(0, -3)
-            return { ...metadata, slug }
+            const stats = fs.statSync('.' + path);
+            //console.log(stats);
+            const {birthtime, mtime} = stats;
+            return { ...metadata, slug, birthtime, mtime }
         })
     )
 
-    let sortedPosts = posts.sort((a, b) => new Date(b.date) - new Date(a.date))
+    let sortedPosts = posts.sort((a, b) => new Date(b.mtime) - new Date(a.mtime))
 
     if (category) {
         sortedPosts = sortedPosts.filter(post => post.categories.includes(category))
@@ -33,6 +37,8 @@ const fetchPosts = async ({ offset = 0, limit = postsPerPage, category = '' } = 
         coverWidth: post.coverWidth,
         coverHeight: post.coverHeight,
         date: post.date,
+        birthtime: post.birthtime, 
+        mtime: post.mtime,
         categories: post.categories,
         hidden: post.hidden
     })).filter(post => post.hidden !== true)
