@@ -8,7 +8,7 @@ const fetchPosts = async ({ offset = 0, limit = postsPerPage, category = '' } = 
             const { metadata } = await resolver()
             const pathParts = path.split('/')
             const slug = pathParts.slice(pathParts.indexOf('posts') + 1).join('/').slice(0, -3)
-            const stats = fs.statSync('.' + path);
+            const stats = {} // fs.statSync('.' + path);
             //console.log(stats);
             const {birthtime, mtime} = stats;
             return { ...metadata, slug, birthtime, mtime }
