@@ -39,6 +39,7 @@ const config = {
 				'*',
 				'/api/posts/page/*',
 				'/blog/category/*',
+				'/blog/category/languages',
 				'/blog/category/*/page/',
 				'/blog/category/*/page/*',
 				'/blog/category/page/',
