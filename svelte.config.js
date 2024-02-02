@@ -38,6 +38,7 @@ const config = {
 			entries: [
 				'*',
 				'/api/posts/page/*',
+				'/blog/category/*',
 				'/blog/category/*/page/',
 				'/blog/category/*/page/*',
 				'/blog/category/page/',
