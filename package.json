@@ -10,7 +10,8 @@
 		"test": "playwright test",
 		"test:unit": "vitest",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"format": "prettier --plugin-search-dir . --write .",
+		"meta": "node ./src/lib/assets/js/post-metadata.js"
 	},
 	"dependencies": {
 		"dayjs": "^1.11.10",
