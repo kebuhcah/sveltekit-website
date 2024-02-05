@@ -52,7 +52,7 @@
 		flex-direction: column;
 		padding: 1rem;
 		width: 100%;
-		max-width: 72rem;
+		max-width: 96rem;
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
@@ -63,11 +63,7 @@
 		justify-content: center;
 		align-items: center;
 		padding: 12px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
+	} 
 
 	@media (min-width: 480px) {
 		footer {
