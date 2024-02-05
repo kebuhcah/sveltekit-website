@@ -1,20 +1,18 @@
 /**
  * All of these values are used throughout the site – for example, 
  * in the <meta> tags, in the footer, and in the RSS feed.
- * 
- * PLEASE BE SURE TO UPDATE THEM ALL! Thank you!
  **/
 
-export const siteTitle = 'My Awesome Blog'
-export const siteDescription = 'Built with the SvelteKit Static Blog Starter'
-export const siteURL = 'example.com'
-export const siteLink = 'https://github.com/josh-collinsworth/sveltekit-blog-starter'
-export const siteAuthor = '- find and change this text in src/lib/config.js'
+export const siteTitle = 'Sun Language Theories'
+export const siteDescription = 'A website about languages, technology and culture'
+export const siteURL = 'sunlanguage.xyz'
+export const siteLink = 'https://sunlanguage.xyz'
+export const siteAuthor = 'Kevin Sun'
 
 // Controls how many posts are shown per page on the main blog index pages
 export const postsPerPage = 10
 
-// Edit this to alter the main nav menu. (Also used by the footer and mobile nav.)
+// Edit this to alter the main nav menu. (Also used by the footer and mobile nav.) TODO: CHECK THIS
 export const navItems = [
     {
         title: 'Blog',
