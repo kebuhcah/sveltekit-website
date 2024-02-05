@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from '$lib/images/slt-logo.svg';
+	import logo from '$lib/images/slt-logo.png';
 	import github from '$lib/images/github.svg';
 	import medium from '$lib/images/medium_logo.svg';
 </script>
