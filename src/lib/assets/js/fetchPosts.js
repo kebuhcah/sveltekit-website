@@ -8,12 +8,12 @@ const fetchPosts = async ({ offset = 0, limit = postsPerPage, category = '' } = 
             const pathParts = path.split('/')
             const slug = pathParts.slice(pathParts.indexOf('posts') + 1).join('/').slice(0, -3)
             const stats = postMetadata['.' + path];
-            const {birthtime, mtime} = stats;
+            const {birthtime, mtime} = stats ?? {};
             return { ...metadata, slug, birthtime, mtime }
         })
     )
 
-    let sortedPosts = posts.sort((a, b) => new Date(b.mtime) - new Date(a.mtime))
+    let sortedPosts = posts.sort((a, b) => new Date(b.mtime ?? null) - new Date(a.mtime ?? null))
 
     if (category) {
         sortedPosts = sortedPosts.filter(post => post.categories.includes(category))
