@@ -5,7 +5,7 @@ categories:
   - "french"
   - "languages"
 excerpt: Still workshopping this
-hidden: false
+hidden: true
 ---
 
 1st screeve

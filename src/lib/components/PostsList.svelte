@@ -1,13 +1,10 @@
 <script>
-	/**
-	 * @type {any[]}
-	 */
-	 export let posts = [];
+	export let posts = [];
 </script>
 
 <div class="posts-list">
 	{#each posts as post}
-		<div class="post-card">
+		<div class="post-card" class:hidden={post.hidden}>
 			<article>
 				<a href="/blog/{post.slug}">
 					<!--<img
@@ -55,6 +52,10 @@
 
 		margin: 0.5rem;
 		padding: 0rem 1.5rem;
+	}
+
+	.hidden {
+		border-color: skyblue;
 	}
 
 	.categories {

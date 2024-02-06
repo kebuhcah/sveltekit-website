@@ -1,5 +1,6 @@
 import { postsPerPage } from '$lib/config'
 import postMetadata from "$lib/post-metadata.json"
+import { dev } from '$app/environment';
 
 const fetchPosts = async ({ offset = 0, limit = postsPerPage, category = '' } = {}) => {    
     const posts = await Promise.all(
@@ -39,7 +40,7 @@ const fetchPosts = async ({ offset = 0, limit = postsPerPage, category = '' } = 
         mtime: post.mtime,
         categories: post.categories,
         hidden: post.hidden
-    })).filter(post => post.hidden !== true)
+    })).filter(post => dev || post.hidden !== true)
 
     return {
         posts: sortedPosts
