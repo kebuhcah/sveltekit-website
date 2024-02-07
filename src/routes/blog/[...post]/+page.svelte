@@ -2,7 +2,7 @@
 <script>
 	export let data;
 
-	const { title, excerpt, date, updated, coverImage, coverWidth, coverHeight, categories } =
+	const { title, excerpt, date, updated, coverImage, coverWidth, coverHeight, categories, birthtime, mtime } =
 		data.meta;
 	const { PostContent } = data;
 </script>
@@ -38,8 +38,8 @@
 	<div class="text-column">
 		<div class="meta">
 			<b>Published:</b>
-			{date} | <b>Updated:</b>
-			{updated}
+			{birthtime} | <b>Updated:</b>
+			{mtime}
 		</div>
 		{#if categories}
 			<header class="post-header">

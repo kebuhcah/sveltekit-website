@@ -1,8 +1,10 @@
 import { error } from '@sveltejs/kit'
+import postMetadata from "$lib/post-metadata.json"
 
 export const load = async ({ params }) => {
     try {
         const postDepth = params.post.split('/').length - 1
+        const fsMetadata = postMetadata[`./src/lib/posts/${params.post}.md`] ?? {}
 
         // why this is needed: https://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations
         if (postDepth == 0) {
@@ -11,7 +13,7 @@ export const load = async ({ params }) => {
 
             return {
                 PostContent: post.default,
-                meta: { ...post.metadata, slug: params.post }
+                meta: { ...post.metadata, ...fsMetadata, slug: params.post }
             }
         } else if (postDepth == 1) {
             const [firstPart, secondPart] = params.post.split('/')
@@ -19,7 +21,7 @@ export const load = async ({ params }) => {
 
             return {
                 PostContent: post.default,
-                meta: { ...post.metadata, slug: params.post }
+                meta: { ...post.metadata, ...fsMetadata, slug: params.post }
             }
         }
 
