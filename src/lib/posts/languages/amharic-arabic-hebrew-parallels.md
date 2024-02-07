@@ -24,8 +24,11 @@ I've been studying various dialects of Arabic on-and-off for about 15 years now,
 
 I'm still far from conversational in Amharic, but at this point I am able to read the alphabet quite well and have a good grasp of the grammar. Since Amharic is much less studied than either Arabic or Hebrew, I've occasionally been asked to explain just how similar it really is to its more famous relatives. This post is basically a cheat-sheet for the next time I'm in that situation.
 
+<aside class="right">Tigrinya note</aside>
 
-(Note: this article will be most enjoyable if you have at least A2 knowledge of Arabic or Hebrew. [Wikipedia Link])
+(Note: this article will be most enjoyable if you have at least A2 knowledge of Arabic or Hebrew. A quick overview of what <a href="https://en.wikipedia.org/wiki/Amharic" target="_blank">Amharic</a> is, and the overall <a href="https://en.wikipedia.org/wiki/Languages_of_Ethiopia" target="_blank">language situation</a> in Ethiopia, could also be helpful.)
+
+
 
 ## What's in a name?
 
@@ -63,6 +66,8 @@ Many common words in Amharic, Arabic and Hebrew are related to each other in a s
 Then again, there are also plenty of cases where the meanings of words have drifted in different directions in different languages.
 
 - The root *l-ḥ-m*, which came to mean "meat" in Arabic (<Lemma language="ara" latin="laḥm" script="لحم" punct />) but "bread" in Hebrew (<Lemma language="heb" latin="lékhem" script="לחם" punct />), means "cow" in Amharic (<Lemma language="amh" latin="lam" script="ላም" punct />, again with dropping of the *h* sound)
+- ammama
+- warq
 - The Amharic verb meaning "to eat", <Lemma language="amh" latin="bäla" script="በላ" punct />, comes from the same root as the Arabic and Hebrew for "to swallow" - <Lemma language="ara" latin="balaʕa" script="بلع" /> and <Lemma language="heb" latin="bala'" script="בלע" />
 - <Lemma language="amh" latin="həzb" script="ሕዝብ" punct />, which means "people" or "crowd" in Amharic (and also "nation" or "tribe" in Ge'ez), is related to Arabic <Lemma language="ara" latin="ḥizb" script="حزب" /> which now mainly means "political party" (as in <em>Hezbollah</em>, "Party of God")
 - One of the Amharic words for "god", <Lemma language="amh" latin="ämlak" script="አምላክ" punct />, shares the same <em>m-l-k</em> root with <Lemma language="ara" latin="malik" script="ملک" /> and <Lemma language="heb" latin="mélekh" script="מלך" punct />, which both mean "king"
