@@ -48,7 +48,7 @@
 		border-color: white;
 
 		min-width: 16rem;
-		max-width: 24rem;
+		max-width: 20%;
 
 		margin: 0.5rem;
 		padding: 0rem 1.5rem;
