@@ -1,5 +1,7 @@
 <!-- This file renders each individual blog post for reading. Be sure to update the svelte:head below -->
 <script>
+	import dayjs from "dayjs";
+
 	export let data;
 
 	const { title, excerpt, date, updated, coverImage, coverWidth, coverHeight, categories, birthtime, mtime } =
@@ -37,9 +39,9 @@
 
 	<div class="text-column">
 		<div class="meta">
-			<b>Published:</b>
-			{birthtime} | <b>Updated:</b>
-			{mtime}
+			<b>Started:</b>
+			{dayjs(birthtime).format("MMM D, YYYY ")} | <b>Last update:</b>
+			{dayjs(mtime).format("MMM D, YYYY ")}
 		</div>
 		{#if categories}
 			<header class="post-header">
