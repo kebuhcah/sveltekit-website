@@ -4,6 +4,7 @@ import preprocess from 'svelte-preprocess'
 import rehypeSectionize from '@hbsnow/rehype-sectionize'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeSlug from 'rehype-slug'
+import addClasses from 'rehype-class-names'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -26,6 +27,10 @@ const config = {
 				// Adds IDs to headings, and anchor links to those IDs. Note: must stay in this order to work.
 				rehypeSlug,
 				rehypeAutolinkHeadings,
+				[addClasses, {
+					h5: 'masonry-grid',
+					h6: 'masonry-grid-item'
+				}]
 			],
 		}),
 	],

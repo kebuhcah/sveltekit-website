@@ -18,6 +18,7 @@
 		"masonry-layout": "^4.2.2",
 		"mdsvex": "^0.10.6",
 		"rehype-autolink-headings": "^6.1.1",
+		"rehype-class-names": "^1.0.14",
 		"rehype-slug": "^5.1.0"
 	},
 	"devDependencies": {

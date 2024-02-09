@@ -11,10 +11,11 @@ coverHeight: 9
 excerpt: A frequently updated record of what languages I'm currently "focusing" on, dabbling in, struggling to maintain, etc.
 ---
 
-# Top Tier
-- Arabic (Levantine and MSA)
-- Czech
-- Thai
+
+##### Top Tier
+###### Arabic (Levantine and MSA)
+###### Czech
+###### Thai
 
 # Regular Practice
 - French
