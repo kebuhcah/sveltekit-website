@@ -2,8 +2,36 @@
     export let columns = 3;
 
     export let items = [];
-    $: itemHeights = [...Array(items.length)]
-    $: itemColumns = [...Array(items.length)].map((_,idx)=>idx % columns)
+    let itemHeights = [...Array(items.length)]
+    $: itemColumns = arrangeColumns(itemHeights) //[...Array(items.length)].map((_,idx)=>idx % columns)
+
+    //$: console.log(itemHeights)
+    function arrangeColumns(heights) {
+        let columnHeights = {}
+        for (let i=0; i<columns; i++) {
+            columnHeights[i] = 0
+        }
+
+        let result = [];
+        for (const h of heights) {
+            const height = h ?? 0;
+
+            let shortestColumn = 0;
+            let shortestHeight = 100000000;
+            for (let i=0; i<columns; i++) {
+                const columnHeight = columnHeights[i];
+                if (columnHeight < shortestHeight) {
+                    shortestHeight = columnHeight;
+                    shortestColumn = i;
+                }
+            }
+            result.push(shortestColumn);
+            columnHeights[shortestColumn] += height + 5;
+        }
+
+        return result
+    }
+
 
 </script>
 
@@ -12,8 +40,8 @@
     <div class="grid-column">
         {#each items as item, j}
             {#if itemColumns[j] == i}
-                <div class="grid-item">
-                    {item}
+                <div class="grid-item" bind:clientHeight={itemHeights[j]}>
+                    {j} {item}
                 </div>
             {/if}
         {/each}
