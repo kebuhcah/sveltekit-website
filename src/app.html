@@ -10,4 +10,12 @@
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 	<script src="%sveltekit.assets%/js/masonry.pkgd.min.js"></script>
+	<script >
+		for (const elem of document.querySelectorAll('section[data-heading-rank="5"]')) {
+			const msnry = new Masonry( elem, {
+  				itemSelector: 'section[data-heading-rank="6"]',
+  				columnWidth: 100
+			});
+		}
+	</script>
 </html>

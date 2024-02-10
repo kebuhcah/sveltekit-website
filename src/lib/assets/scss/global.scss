@@ -45,9 +45,15 @@ h2 {
 	margin-bottom: 0;
 }
 
-h5, h6 {
+h5 {
   font-size: 2rem;
   font-weight: 600;
+  text-align: center;
+}
+
+h6 {
+	font-size: 1.5rem;
+	font-weight: 600;
 }
 
 p {
@@ -174,4 +180,16 @@ button:focus:not(:focus-visible) {
 	position: absolute;
 	width: 1px;
 	white-space: nowrap;
+}
+
+section[data-heading-rank="5"]  {
+	border-width: 1px;
+	border-style: solid;
+}
+
+section[data-heading-rank="6"]  {
+	border-width: 1px;
+	border-style: solid;
+	border-color: red;
+	width: 30%;
 }

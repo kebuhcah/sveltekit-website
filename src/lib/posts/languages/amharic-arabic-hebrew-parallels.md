@@ -99,7 +99,7 @@ In a few cases, rather than descending from the same root, Amharic (or Ge'ez) bo
 - The Amharic (and Ge'ez) word for "book", <Lemma language="amh" latin="mäṣḥaf" script="መጽሐፍ" punct />, was actually borrowed from <em>from</em> Ethiopia <em>into</em> Arabic as <Lemma language="ara" latin="muṣḥaf" script="مصحف" /> (at least, according to <a href="https://en.wiktionary.org/wiki/مصحف#Arabic" target="_blank">Wiktionary</a>). That then became the source for words like <Lemma language="ara" latin="ṣaḥāfa" script="صحافة" /> ("journalism") and <Lemma language="ara" latin="ṣaḥāfī" script="صحافي" /> ("journalist"). And in Amharic, <Lemma language="amh" latin="ṣäḥafi" script="ጸሓፊ" /> means "writer" or "scribe"
 - In another intriguing case, the Arabic word <Lemma language="ara" latin="minbar" script="منبر" /> (<a href="https://en.wiktionary.org/wiki/minbar" target="_blank">a pulpit in a mosque</a>) may also have an Ethiopic origin, via the verb <Lemma language="amh" latin="näbbärä" script="ነበረ" /> which originally meant "to sit" but now also means "to stay", "to live" or just the auxiliary verb "to be". That would make it a relative of the Amharic word for "chair", <Lemma language="amh" latin="wämbär" script="ወምበር" punct />, where the initial <em>m</em> became a <em>w</em> due to nasal dissimilation. (See the references in <a href="https://en.wiktionary.org/wiki/منبر#Arabic" target="_blank">Wiktionary</a> for the sources of this claim.)
 
-## Final notes
+## Final notes 
 
 <aside class="right">*But certainly much closer than languages in other branches of the <a href="https://en.wikipedia.org/wiki/Afroasiatic_languages" target="_blank">Afroasiatic language family</a> like Somali, Oromo, Hausa or Berber.</aside>
 
