@@ -1,11 +1,16 @@
 <script>
+    import BasicMasonryItem from '$lib/components/BasicMasonryItem.svelte';
+
     export let columns = 3;
+    export let component = BasicMasonryItem;
 
     export let items = [];
     let itemHeights = [...Array(items.length)]
-    $: itemColumns = arrangeColumns(itemHeights)
+    $: itemColumns = arrangeColumns(itemHeights); 
 
     function arrangeColumns(heights) {
+        console.log(heights)
+
         let columnHeights = [...Array(columns)].map(_ => 0)
 
         let result = [];
@@ -36,9 +41,7 @@
     <div class="grid-column">
         {#each items as item, j}
             {#if itemColumns[j] == i}
-                <div class="grid-item" bind:clientHeight={itemHeights[j]}>
-                    {j} {item}
-                </div>
+                <svelte:component this={component} {...items[j]} bind:itemHeight={itemHeights[j]} />
             {/if}
         {/each}
     </div>
