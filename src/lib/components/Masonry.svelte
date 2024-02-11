@@ -3,24 +3,20 @@
 
     export let items = [];
     let itemHeights = [...Array(items.length)]
-    $: itemColumns = arrangeColumns(itemHeights) //[...Array(items.length)].map((_,idx)=>idx % columns)
+    $: itemColumns = arrangeColumns(itemHeights)
 
-    //$: console.log(itemHeights)
     function arrangeColumns(heights) {
-        let columnHeights = {}
-        for (let i=0; i<columns; i++) {
-            columnHeights[i] = 0
-        }
+        let columnHeights = [...Array(columns)].map(_ => 0)
 
         let result = [];
         for (const h of heights) {
             const height = h ?? 0;
 
             let shortestColumn = 0;
-            let shortestHeight = 100000000;
+            let shortestHeight;
             for (let i=0; i<columns; i++) {
                 const columnHeight = columnHeights[i];
-                if (columnHeight < shortestHeight) {
+                if (shortestHeight == undefined || columnHeight < shortestHeight) {
                     shortestHeight = columnHeight;
                     shortestColumn = i;
                 }
