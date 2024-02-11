@@ -11,21 +11,13 @@
   "birthtime": "2024-01-06T06:21:08.732Z",
   "mtime": "2024-02-09T05:17:25.134Z"
  },
- "./src/lib/posts/examples/heading-links-example.md": {
-  "birthtime": "2023-11-21T02:54:58.148Z",
-  "mtime": "2024-01-31T05:48:16.181Z"
- },
- "./src/lib/posts/examples/syntax-highlighting-example.md": {
-  "birthtime": "2023-11-21T02:55:21.929Z",
-  "mtime": "2024-01-31T05:52:50.081Z"
- },
  "./src/lib/posts/history/book-list.md": {
   "birthtime": "2024-01-29T05:50:26.256Z",
   "mtime": "2024-01-30T06:00:24.482Z"
  },
  "./src/lib/posts/languages/amharic-arabic-hebrew-parallels.md": {
   "birthtime": "2023-12-05T05:24:25.630Z",
-  "mtime": "2024-02-10T18:24:03.447Z"
+  "mtime": "2024-02-10T21:35:45.556Z"
  },
  "./src/lib/posts/languages/german-c1-exam.md": {
   "birthtime": "2024-01-29T05:48:42.594Z",
@@ -33,10 +25,6 @@
  },
  "./src/lib/posts/languages/language-study-tracker.md": {
   "birthtime": "2024-01-29T05:49:27.026Z",
-  "mtime": "2024-02-09T05:35:20.875Z"
- },
- "./src/lib/posts/mdsvex-component-example.md": {
-  "birthtime": "2023-11-21T02:55:10.935Z",
-  "mtime": "2024-01-31T05:49:06.155Z"
+  "mtime": "2024-02-10T22:18:40.294Z"
  }
 }
