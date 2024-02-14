@@ -5,6 +5,7 @@
     export let component = BasicMasonryItem;
 
     export let items = [];
+    console.log(items);
     let itemHeights = [...Array(items.length)]
     $: itemColumns = arrangeColumns(itemHeights); 
 
@@ -35,7 +36,6 @@
 
 
 </script>
-
 <div class="grid">
     {#each [...Array(columns).keys()] as i}
     <div class="grid-column">

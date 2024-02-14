@@ -1,7 +1,7 @@
 <script>
     export let content=""
 
-    export let itemHeight;
+    export let itemHeight
 </script>
 
 <div class="grid-item" bind:clientHeight={itemHeight}>
