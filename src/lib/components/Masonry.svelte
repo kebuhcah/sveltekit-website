@@ -1,18 +1,22 @@
 <script>
     import BasicMasonryItem from '$lib/components/BasicMasonryItem.svelte';
 
-    export let columns = 3;
+    export let columns = 3; // ideal # of columns on wide screen
     export let component = BasicMasonryItem;
+
+    let clientWidth
+
+    $: actualColumns = clientWidth > 800 ? columns : clientWidth > 400 ? 2 : 1;
 
     export let items = [];
     console.log(items);
     let itemHeights = [...Array(items.length)]
-    $: itemColumns = arrangeColumns(itemHeights); 
+    $: itemColumns = arrangeColumns(itemHeights, actualColumns); 
 
-    function arrangeColumns(heights) {
+    function arrangeColumns(heights, cols) {
         console.log(heights)
 
-        let columnHeights = [...Array(columns)].map(_ => 0)
+        let columnHeights = [...Array(cols)].map(_ => 0)
 
         let result = [];
         for (const h of heights) {
@@ -20,7 +24,7 @@
 
             let shortestColumn = 0;
             let shortestHeight;
-            for (let i=0; i<columns; i++) {
+            for (let i=0; i<cols; i++) {
                 const columnHeight = columnHeights[i];
                 if (shortestHeight == undefined || columnHeight < shortestHeight) {
                     shortestHeight = columnHeight;
@@ -36,8 +40,9 @@
 
 
 </script>
-<div class="grid">
-    {#each [...Array(columns).keys()] as i}
+{clientWidth}
+<div class="grid" bind:clientWidth bind>
+    {#each [...Array(actualColumns).keys()] as i}
     <div class="grid-column">
         {#each items as item, j}
             {#if itemColumns[j] == i}
