@@ -6,7 +6,7 @@
 
     let clientWidth
 
-    $: actualColumns = clientWidth > 800 ? columns : clientWidth > 400 ? 2 : 1;
+    $: actualColumns = clientWidth > 900 ? columns : clientWidth > 600 ? 2 : 1;
 
     export let items = [];
     console.log(items);
@@ -40,10 +40,10 @@
 
 
 </script>
-{clientWidth}
+<!-- {clientWidth} -->
 <div class="grid" bind:clientWidth bind>
     {#each [...Array(actualColumns).keys()] as i}
-    <div class="grid-column">
+    <div class="grid-column columns-{actualColumns}">
         {#each items as item, j}
             {#if itemColumns[j] == i}
                 <svelte:component this={component} {...items[j]} bind:itemHeight={itemHeights[j]} />
@@ -62,6 +62,25 @@
     .grid-column {
         display: flex;
         flex-direction: column;
+    }
+
+    .columns-5 {
+        width: 20%
+    }
+
+    .columns-4 {
+        width: 25%
+    }
+
+    .columns-3 {
         width: 33%
+    }
+
+    .columns-2 {
+        width: 50%
+    }
+
+    .columns-1 {
+        width: 100%
     }
 </style>
