@@ -24,7 +24,7 @@ I've been studying various dialects of Arabic on-and-off for about 15 years now,
 
 I'm still far from conversational in Amharic, but at this point I am able to read the alphabet quite well and have a good grasp of the grammar. Since Amharic is much less studied than either Arabic or Hebrew, I've occasionally been asked to explain just how similar it really is to its more famous relatives. This post is basically a cheat-sheet for the next time I'm in that situation.
 
-<aside class="right">Tigrinya note</aside>
+<aside class="full">By the way, there are other Semitic languages in the Horn of Africa besides Amharic! Tigrinya is spoken in the north and in Eritrea, and Ge'ez was the historical literary language and is still used in religious contexts. In many ways, Amharic is the "weirdest" of these, and is more different from northern Semitic languages in pronunciation, vocabulary and grammar.</aside>
 
 (Note: this article will be most enjoyable if you have at least A2 knowledge of Arabic or Hebrew. A quick overview of what <a href="https://en.wikipedia.org/wiki/Amharic" target="_blank">Amharic</a> is, and the overall <a href="https://en.wikipedia.org/wiki/Languages_of_Ethiopia" target="_blank">language situation</a> in Ethiopia, could also be helpful.)
 
