@@ -38,26 +38,21 @@ excerpt: A frequently updated record of what languages I'm currently "focusing" 
 
 # Top Tier
 <Masonry items={gridItems1} columns={3} />
+- Arabic (MSA)
+- Arabic (Levantine)
+- Czech
+- Thai
 
 # Regular Practice
 - French
 - Korean
 - Italian
-- Spanish
 - German
-- Japanese
 - Russian
+- Spanish
+- Japanese
 
 # Dabbling
 - Armenian
-- Georgian
-- Old Occitan
 - Kazakh
-- Mongolian
-- Kurdish
-- Syriac
-
-# Queued Up
-- Nahuatl
-- Greek
-
+- Maltese

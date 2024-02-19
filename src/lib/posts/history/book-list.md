@@ -12,8 +12,5 @@ excerpt: Some of the books I've been reading lately, in various languages.
 ---
 
 - Le Naufrage de Civilisations
-- Geschichte des Judischen Denkens
-- Jakarta Method (Spanish translation)
-- The Culture of Narcissism (Italian translation)
 - https://en.wikipedia.org/wiki/Incomplete_Nature
 - https://www.cambridgebookshop.co.uk/products/the-joy-of-abstraction
