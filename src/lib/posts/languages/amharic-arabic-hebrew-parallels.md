@@ -59,11 +59,11 @@ Many common words in Amharic, Arabic and Hebrew are related to each other in a s
 
 ## Different meanings
 
-Then again, there are also plenty of cases where the meanings of words have drifted in different directions in different languages.
+Then again, there are also plenty of cases where the meanings of words have drifted in different directions in the different descendant languages.
 
 - The root *l-ḥ-m*, which came to mean "meat" in Arabic (<Lemma language="ara" latin="laḥm" script="لحم" punct />) but "bread" in Hebrew (<Lemma language="heb" latin="lékhem" script="לחם" punct />), means "cow" in Amharic (<Lemma language="amh" latin="lam" script="ላም" punct />, again with dropping of the *h* sound)
-- ammama አመመ (حم) (חם)
-- warq ወርቅ wärḳ https://en.wiktionary.org/wiki/Reconstruction:Proto-Semitic/waraḳ-
+-  The Amharic verb for "to get sick", <Lemma language="amh" latin="ammämä" script="አመመ" punct />, is related to Arabic <Lemma language="ara" latin="ḥamm" script="حم" /> and Hebrew <Lemma language="heb" latin="kham" script="חם" punct />, which both mean "hot". (This is also related to English "hammam", which came from Arabic as well.)
+- The Amharic word for "gold", <Lemma language="amh" latin="warq" script="ወርቅ" punct />, goes back to an ancient Semitic root that apparently meant "green" or "yellow". As such, it's related to Arabic <Lemma language="ara" latin="waraq" script="ورق" />  ("leaves", another meaning shift) and Hebrew <Lemma language="heb" latin="yarok" script="ירוק" />
 - The Amharic verb meaning "to eat", <Lemma language="amh" latin="bäla" script="በላ" punct />, comes from the same root as the Arabic and Hebrew for "to swallow" - <Lemma language="ara" latin="balaʕa" script="بلع" /> and <Lemma language="heb" latin="bala'" script="בלע" />
 - <Lemma language="amh" latin="həzb" script="ሕዝብ" punct />, which means "people" or "crowd" in Amharic (and also "nation" or "tribe" in Ge'ez), is related to Arabic <Lemma language="ara" latin="ḥizb" script="حزب" /> which now mainly means "political party" (as in <em>Hezbollah</em>, "Party of God")
 - One of the Amharic words for "god", <Lemma language="amh" latin="ämlak" script="አምላክ" punct />, shares the same <em>m-l-k</em> root with <Lemma language="ara" latin="malik" script="ملک" /> and <Lemma language="heb" latin="mélekh" script="מלך" punct />, which both mean "king"
