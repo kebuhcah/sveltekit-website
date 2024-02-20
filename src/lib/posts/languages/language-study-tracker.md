@@ -12,9 +12,10 @@ excerpt: A frequently updated record of what languages I'm currently "focusing" 
 ---
 <script>
   import Masonry from '$lib/components/Masonry.svelte';
+  import CardMasonryItem from '$lib/components/CardMasonryItem.svelte';
 
   let gridItems1 = [
-  { content: '0 asdasd' },
+  { header: 'Arabic', body: 'testing', links: ['www.google.com', 'www.github.com'] },
   {
     content: '1 ብእሲ ፡ ጻድቅ ፡ ዘእምኀበ ፡ እግዚአብሔር ፡ እንዘ ፡ አዕይንቲሁ ፡ ክሡታት ፡ ወይሬኢ ፡ ራእየ ፡ ቅዱሰ ፡ ዘበሰማያት ፡ ዘአርአዩኒ ፡ መላእክት ፡ ወሰማዕኩ ፡ እምኀቤሆሙ ፡ ኵሎ ፡ ወአእመርኩ ፡ አነ ፡ ዘእሬኢ ፡ ወአኮ ፡ ለዝ ፡ ትውልድ ፡ አላ ፡ ለዘይመጽእ ፡ ትውልድ'
   },
@@ -37,7 +38,7 @@ excerpt: A frequently updated record of what languages I'm currently "focusing" 
 </script>
 
 # Top Tier
-<Masonry items={gridItems1} columns={3} />
+<Masonry items={gridItems1} columns={3} component={CardMasonryItem} />
 - Arabic (MSA)
 - Arabic (Levantine)
 - Czech
