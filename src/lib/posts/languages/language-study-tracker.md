@@ -15,45 +15,23 @@ excerpt: A frequently updated record of what languages I'm currently "focusing" 
   import CardMasonryItem from '$lib/components/CardMasonryItem.svelte';
 
   let gridItems1 = [
-  { header: 'Arabic', body: 'testing', links: ['www.google.com', 'www.github.com'] },
-  {
-    content: '1 ብእሲ ፡ ጻድቅ ፡ ዘእምኀበ ፡ እግዚአብሔር ፡ እንዘ ፡ አዕይንቲሁ ፡ ክሡታት ፡ ወይሬኢ ፡ ራእየ ፡ ቅዱሰ ፡ ዘበሰማያት ፡ ዘአርአዩኒ ፡ መላእክት ፡ ወሰማዕኩ ፡ እምኀቤሆሙ ፡ ኵሎ ፡ ወአእመርኩ ፡ አነ ፡ ዘእሬኢ ፡ ወአኮ ፡ ለዝ ፡ ትውልድ ፡ አላ ፡ ለዘይመጽእ ፡ ትውልድ'
-  },
-  { content: '2 fdflkgmd lfkgmd;fgmer ogrpoker' },
-  {
-    content: '3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
-  },
-  { content: '4 24334235r' },
-  { content: '5 sdfsdgs' },
-  { content: '6 sdfsdg' },
-  { content: '7 sdfdfg' },
-  { content: '8 sfgdfg' },
-  { content: '9 asdas' },
-  { content: '10 sfgsd' },
-  {
-    content: '11  ቃለ ፡ በረከት ፡ ዘሄኖክ ፡ ዘከመ ፡ ባረከ ፡ ኅሩያነ ፡ ወጻድቃነ ፡ እለ ፡ ሀለዉ ፡ ይኩኑ ፡ በዕለተ ፡ ምንዳቤ ፡ ለአሰስሎ ፡ ኵሉ ፡ እኩያን ፡ ወረሲዓን ። ወአውሥአ ፡ ወይቤ ፡ ሄኖክ ፡'
-  },
-  { content: '12 123213' }
-]
+  { header: 'Levantine Arabic', body: 'testing', links: ['www.google.com', 'www.github.com'] },
+  { header: 'Modern Standard Arabic', body: 'testing', links: ['www.google.com', 'www.github.com'] },
+  { header: 'Czech', body: 'testing', links: ['www.google.com', 'www.github.com'] },
+  { header: 'Thai', body: 'testing', links: ['www.google.com', 'www.github.com'] },
+  { header: 'French', body: 'testing', links: ['www.google.com', 'www.github.com'] },
+  { header: 'Korean', body: 'testing', links: ['www.google.com', 'www.github.com'] },
+  { header: 'Italian', body: 'testing', links: ['www.google.com', 'www.github.com'] },
+  { header: 'Maltese', body: 'testing', links: ['www.google.com', 'www.github.com'] },
+  { header: 'German', body: 'testing', links: ['www.google.com', 'www.github.com'] },
+  { header: 'Russian', body: 'testing', links: ['www.google.com', 'www.github.com'] },
+  { header: 'Japanese', body: 'testing', links: ['www.google.com', 'www.github.com'] },
+  { header: 'Armenian', body: 'testing', links: ['www.google.com', 'www.github.com'] },
+  { header: 'Kazakh', body: 'testing', links: ['www.google.com', 'www.github.com'] },
+  { header: 'Uyghur', body: 'testing', links: ['www.google.com', 'www.github.com'] },
+  ]
 </script>
 
-# Top Tier
+lorem ipsum
+
 <Masonry items={gridItems1} columns={3} component={CardMasonryItem} />
-- Arabic (MSA)
-- Arabic (Levantine)
-- Czech
-- Thai
-
-# Regular Practice
-- French
-- Korean
-- Italian
-- German
-- Russian
-- Spanish
-- Japanese
-
-# Dabbling
-- Armenian
-- Kazakh
-- Maltese
