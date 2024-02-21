@@ -57,6 +57,8 @@
     .grid {
         display: flex;
         justify-content: space-around;
+        width: 150%;
+        max-width: 100vw;
     }
 
     .grid-column {
