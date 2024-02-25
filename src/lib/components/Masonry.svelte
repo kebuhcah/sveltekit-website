@@ -41,7 +41,7 @@
 
 </script>
 <!-- {clientWidth} -->
-<div class="grid" bind:clientWidth bind>
+<div class="grid" class:wide-grid={actualColumns > 1} bind:clientWidth>
     {#each [...Array(actualColumns).keys()] as i}
     <div class="grid-column columns-{actualColumns}">
         {#each items as item, j}
@@ -57,8 +57,6 @@
     .grid {
         display: flex;
         justify-content: space-around;
-        width: 150%;
-        max-width: 100vw;
     }
 
     .grid-column {
