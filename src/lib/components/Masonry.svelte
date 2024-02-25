@@ -9,12 +9,12 @@
     $: actualColumns = clientWidth > 900 ? columns : clientWidth > 600 ? 2 : 1;
 
     export let items = [];
-    console.log(items);
+    //console.log(items);
     let itemHeights = [...Array(items.length)]
     $: itemColumns = arrangeColumns(itemHeights, actualColumns); 
 
     function arrangeColumns(heights, cols) {
-        console.log(heights)
+        //console.log(heights)
 
         let columnHeights = [...Array(cols)].map(_ => 0)
 

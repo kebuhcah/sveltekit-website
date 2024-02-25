@@ -15,7 +15,7 @@ excerpt: A frequently updated record of what languages I'm currently "focusing" 
   import CardMasonryItem from '$lib/components/CardMasonryItem.svelte';
 
   let gridItems1 = [
-  { header: 'Levantine Arabic', body: `I started getting back into Arabic last summer, after the Polyglot Conference in Poland where I got to practice a ton of Arabic both with other learners and with native speakers. I realized that Arabic was the Middle Eastern language that I was the most fluent in, and decided it would make sense to focus on it even more instead of spreading myself too thin.
+  { header: 'Levantine Arabic', body: `I started getting back into Arabic last summer, after the **Polyglot Conference in Poland** where I got to practice a ton of Arabic both with other learners and with native speakers. I realized that Arabic was the Middle Eastern language that I was the most fluent in, and decided it would make sense to focus on it even more instead of spreading myself too thin.
   
   test`},
   { header: 'Modern Standard Arabic', body: `I seem to have more or less reached the end of the line in terms of Levantine Arabic textbooks, so the other thing I'm doing I working on my fusha as well, both as another way to expand my vocabulary and just because it'd be nice to actually solidify my knowledge of the language again.`, links: ['www.google.com', 'www.github.com'] },
