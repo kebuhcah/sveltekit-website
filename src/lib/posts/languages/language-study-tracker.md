@@ -24,19 +24,24 @@ excerpt: A frequently updated record of what languages I'm currently "focusing" 
   { header: 'Hebrew', body: `The Middle Eastern language that I enjoyed speaking the second most last year was Hebrew, so I'd been meaning to brush up on this one for a while too. I promise I was already working on both my Arabic and Hebrew before the recent events in the region.`, links: ['www.google.com', 'www.github.com'] },
   { header: 'Maltese', body: `The other big Polyglot event of 2024 will be the Polyglot Conference in Malta this fall. Maltese is, at it's core, an Arabic dialect with heavy Sicilian/Italian influence, so it should be to difficult to get a hang of the basics, especially since I'm already studying a lot of Arabic these days. (In fact, I already read through a Maltese textbook last for no particular reason.)`, links: ['www.google.com', 'www.github.com'] },
   { header: 'Thai', body: `Okay, this one is kind of random. On my latest trip back to Asia, I dropped by Penang, Malaysia for the Language Event being held there. But instead of brushing up on my Malay, I accidentally got sidetracked by a random urge to finally learn the Thai script.`, links: ['www.google.com', 'www.github.com'] },
+  { header: 'Italian', body: 'testing', links: ['www.google.com', 'www.github.com'] },
   { header: 'French', body: `After getting my C1 certificate in German, it's time for me to get back to the other European languages I'd been neglecting in recent years.`, links: ['www.google.com', 'www.github.com'] },
   { header: 'Korean', body: `This was my main project during the height of the pandemic, and the last language I got from zero to B2-ish in. I'm not doing much study or reading in Korean these days, but I attend a Korean conversation group here in LA on a semi-regular basis, so I'm keeping it up.`, links: ['www.google.com', 'www.github.com'] },
-  { header: 'Italian', body: 'testing', links: ['www.google.com', 'www.github.com'] },
   { header: 'German', body: `I hit a significant milestone in German with my C1 test last year, but I'm certainly not about to drop the language entirely right now. For now, I'm just keeping it up by reading a few books.`, links: ['www.google.com', 'www.github.com'] },
-  { header: 'Russian', body: 'testing', links: ['www.google.com', 'www.github.com'] },
   { header: 'Armenian', body: 'testing', links: ['www.google.com', 'www.github.com'] },
   { header: 'Kazakh', body: 'testing', links: ['www.google.com', 'www.github.com'] },
-  { header: 'Uyghur', body: 'testing', links: ['www.google.com', 'www.github.com'] },
-  { header: 'Honorable Mentions', body: 'testing', links: ['www.google.com', 'www.github.com'] },
-  { header: 'The backlog', body: 'testing', links: ['www.google.com', 'www.github.com'] }
+  { header: 'Uyghur', body: 'testing', links: ['www.google.com', 'www.github.com'] }
   ]
 </script>
 
-This is regularly-updated list of the various languages I'm currently studying (actively, with textbooks etc.), maintaining (reading books, consuming other media) or just dabbling in at the moment, roughly in descending order of emphasis.
+## Overview
+
+A website about my language learning experiences would obviously not be complete without a section about what specific language I actually am learning right now. So here you go.
+
+My language learning priorities have finally settled down a bit after a couple of shakeups in recent months - first, my completion of the German C1 exam, which popped German off the top of the stack (IT term), and secondly my short trip back to Asia (Penang, Bangkok, Shanghai) in December, prior to which I was working on Malay and Hokkien for a bit. Those have also fallen off the list.
+
+It goes without saying that I'll be updating this page on a regular basis as I get distracted by shiny objects, which happens all the time.
+
+Things get a bit blurry towards the bottom of the list, since there is a variety of languages that I'm still listening to, reading or speaking semi-regularly that these days that I wouldn't really consider myself to be "studying" or "dabbling in" - mostly languages that I am conversational in already but have neglected for a long time, like... Japanese, Serbo-Croatian, Hindi and so on.
 
 <Masonry items={gridItems1} columns={3} component={CardMasonryItem} />
