@@ -6,7 +6,7 @@
 
     let clientWidth
 
-    $: actualColumns = clientWidth > 900 ? columns : clientWidth > 600 ? 2 : 1;
+    $: actualColumns = clientWidth === undefined ? columns : (clientWidth > 900 ? columns : clientWidth > 600 ? 2 : 1);
 
     export let items = [];
     //console.log(items);
