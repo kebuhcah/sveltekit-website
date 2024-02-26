@@ -14,6 +14,7 @@
 		"meta": "node ./src/lib/assets/js/post-metadata.js"
 	},
 	"dependencies": {
+		"@vercel/analytics": "^1.2.2",
 		"dayjs": "^1.11.10",
 		"marked": "^12.0.0",
 		"mdsvex": "^0.10.6",

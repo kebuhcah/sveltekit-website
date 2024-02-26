@@ -8,6 +8,8 @@
 	import { setContext } from 'svelte';
 	import { writable } from 'svelte/store';
 
+	import { inject } from '@vercel/analytics'
+
 	export let data;
 
 	$: if (browser && data?.analyticsId) {
