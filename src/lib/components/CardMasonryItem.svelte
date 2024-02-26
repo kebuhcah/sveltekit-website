@@ -1,15 +1,16 @@
 <script>
-	import { parse } from 'marked';
+	import { Marked } from 'marked';
+	import { createDirectives } from 'marked-directive';
 
 	export let hidden = false;
 	export let header = 'Header';
-	export let body = 'ወሞተ ፡ ረዓይትኒ ፡ እንተ ፡ ኀበ ፡ ወፅኡ ፡ መንፈሳት ፡ እምነፍስት ፡ ሥጋሆሙ ፡ ለይኩን ፡ ዘይማስን ፡ ዘእንበለ ፡ ኵነኔ ፤ ከማሁ ፡ ይማስኑ ፡ እስከ ፡ ዕለተ ፡ ኵነኔ ፡ ዐባይ ፡ እምዓለም ፡ ዐቢይ ፡ ይትፌጸም ፡ እምትጉሃን ፡ ወረሲዓን ። ወይእዜኒ ፡ ለትጉሃን ፡ እለ ፡ ፈነዉከ ፡ ትስአል ፡ በእንቲአሆሙ ፡ እለ ፡ ቀዲሙ ፡ በሰማይ ፡ ሀለዉ ። ወእእዜኒ ፡ አንትሙሰ ፡ በሰማይ ፡ ሀለውክሙ ፡ ወኅቡኣት ፡ ዓዲ ፡ እተከሥቱ ፡ ለክሙ ፡ ወምኑነ ፡ ምሥጢረ ፡ አእመርክሙ ፡ ወዘንተ ፡ ዜነውክሙ ፡ ለአንስት ፡ በጽንዐ ፡ ልብክሙ ፡ ወበዝንቱ ፡ ምሥጢር ፡ ያበዝኃ ፡ አንስት ፡ ወሰብእ ፡ እኪተ ፡ በዲበ ፡ ምድር ። በሎሙ ፡ እንከሰ ፡ አልብክሙ ፡ ሰላም ።';
+	export let body =
+		'ወሞተ ፡ ረዓይትኒ ፡ እንተ ፡ ኀበ ፡ ወፅኡ ፡ መንፈሳት ፡ እምነፍስት ፡ ሥጋሆሙ ፡ ለይኩን ፡ ዘይማስን ፡ ዘእንበለ ፡ ኵነኔ ፤ ከማሁ ፡ ይማስኑ ፡ እስከ ፡ ዕለተ ፡ ኵነኔ ፡ ዐባይ ፡ እምዓለም ፡ ዐቢይ ፡ ይትፌጸም ፡ እምትጉሃን ፡ ወረሲዓን ። ወይእዜኒ ፡ ለትጉሃን ፡ እለ ፡ ፈነዉከ ፡ ትስአል ፡ በእንቲአሆሙ ፡ እለ ፡ ቀዲሙ ፡ በሰማይ ፡ ሀለዉ ። ወእእዜኒ ፡ አንትሙሰ ፡ በሰማይ ፡ ሀለውክሙ ፡ ወኅቡኣት ፡ ዓዲ ፡ እተከሥቱ ፡ ለክሙ ፡ ወምኑነ ፡ ምሥጢረ ፡ አእመርክሙ ፡ ወዘንተ ፡ ዜነውክሙ ፡ ለአንስት ፡ በጽንዐ ፡ ልብክሙ ፡ ወበዝንቱ ፡ ምሥጢር ፡ ያበዝኃ ፡ አንስት ፡ ወሰብእ ፡ እኪተ ፡ በዲበ ፡ ምድር ። በሎሙ ፡ እንከሰ ፡ አልብክሙ ፡ ሰላም ።';
 	export let links = [];
 
 	export let itemHeight;
 
-	const bodyParsed = parse(body);
-
+	const bodyParsed = new Marked().use(createDirectives()).parse(body);
 </script>
 
 <div class="card" class:hidden bind:clientHeight={itemHeight}>

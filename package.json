@@ -17,6 +17,7 @@
 		"@vercel/analytics": "^1.2.2",
 		"dayjs": "^1.11.10",
 		"marked": "^12.0.0",
+		"marked-directive": "^1.0.5",
 		"mdsvex": "^0.10.6",
 		"rehype-autolink-headings": "^6.1.1",
 		"rehype-class-names": "^1.0.14",
