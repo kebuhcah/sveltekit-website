@@ -8,7 +8,9 @@
 	import { setContext } from 'svelte';
 	import { writable } from 'svelte/store';
 
-	import { inject } from '@vercel/analytics'
+	import { inject } from '@vercel/analytics';
+
+	inject({ mode: dev ? 'development' : 'production' });
 
 	export let data;
 
