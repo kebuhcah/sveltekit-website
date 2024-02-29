@@ -1,5 +1,5 @@
 ---
-title: "I'm officially C1 in German now, but what does that even mean?"
+title: "I'm officially C1 in German now. Now what?"
 date: "2024-01-28"
 updated: "2024-01-28"
 categories: 
@@ -24,12 +24,22 @@ In the end, I guess that bit of extra stress didn't really matter. Coming out of
 
 
 ## Preparation
+
+Of course, the first order of business when it comes to prepping for a test is finding out what the format of the test will be.
 https://www.amazon.de/Prüfungstraining-DaF-Goethe-Zertifikat-Mittelstufenprüfung-Übungsbuch/dp/3060205310
-https://www.amazon.com/Hammers-Grammar-Routledge-Reference-Grammars-dp-0367150263/dp/0367150263/ref=dp_ob_title_bk?fbclid=IwAR0yq34pwfCSsNmyrtTyzglQHWN4pVs0npVHXgl9J5-RHxGXvnROvZxFMCg
+
+I also skimmed the sample tests on the Goethe Institut website, which helped me decide that B2 seemed a bit too easy, C2 a bit too hard, and that C1 would be slightly challenging but certainly acheivable.
+
+Next, I came across this very helpful manual with useful vocabulary and turns of phrase to use *specifically* in the exam.
 https://www.amazon.com/universale-Wortschatz-DSH-Prüfung-Test-DaF-Goethe-ebook/dp/B086BSBT2F/ref=sr_1_9?qid=1698605167&refinements=p_27%3AIhor+Kolesnykov&s=books&sr=1-9&fbclid=IwAR0SI5eRH757-UOCW3oMekgBKCuR7ig7nPSNUiUZd5cLdq_oMgfUOTfd-38
+
+Beyond exam-specific preparations, I decided I also needed to finally clarify my understanding of a few grammar points which I could get away with not knowing in casual conversation, but which would be problematic when writing an essay.
+https://www.amazon.com/Hammers-Grammar-Routledge-Reference-Grammars-dp-0367150263/dp/0367150263/ref=dp_ob_title_bk?fbclid=IwAR0yq34pwfCSsNmyrtTyzglQHWN4pVs0npVHXgl9J5-RHxGXvnROvZxFMCg
+
+Another big focus was learning not just words, but word collocations and synonym groups.
 www.dwds.de
 
-I also kept reading a lot of German books, as I had already been doing for the past two years. Around the time of the exam, the main book I was reading was a German translation of Frank Herbert's Dune.
+I also kept reading a lot of German books, as I had already been doing for the past two years. Around the time of the exam, the main book I was reading was a German translation of Frank Herbert's Dune, which I had decided to read in anticipation of the release of Dune 2 (which was originally scheduled for last fall before being delayed to this year because of the actors' strike).
 
 ## What does C1 even mean?
 
