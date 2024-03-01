@@ -30,14 +30,13 @@ excerpt: A frequently updated record of what languages I'm currently "focusing" 
   { header: 'Hebrew', body: `The Middle Eastern language that I enjoyed speaking the second most last year was Hebrew, so I'd been meaning to brush up on this one for a while too. I promise I was already working on both my Arabic and Hebrew before the recent events in the region.` },
   { header: 'Maltese', body: `The other big Polyglot event of 2024 will be the Polyglot Conference in Malta this fall. Maltese is, at it's core, an Arabic dialect with heavy Sicilian/Italian influence, so it should be to difficult to get a hang of the basics, especially since I'm already studying a lot of Arabic these days. (In fact, I already read through a Maltese textbook last for no particular reason.)` },
   { header: 'Thai', body: `Okay, this one is kind of random. On my latest trip back to Asia, I dropped by Penang, Malaysia for the Language Event being held there. But instead of brushing up on my Malay, I accidentally got sidetracked by a random urge to finally learn the Thai script.` },
-  { header: 'Italian', body: `TKTKTKTK` },
+  { header: 'Italian', body: `Speaking of the Polyglot Conference in Malta, I'm also currently making plans to travel around Italy a bit as part of the same trip. ` },
   { header: 'French', body: `After getting my C1 certificate in German, it's time for me to get back to the other European languages I'd been neglecting in recent years.` },
   { header: 'Korean', body: `This was my main project during the height of the pandemic, and the last language I got from zero to B2-ish in. I'm not doing much study or reading in Korean these days, but I attend a Korean conversation group here in LA on a semi-regular basis, so I'm keeping it up.` },
   { header: 'German', body: `I hit a significant milestone in German with my C1 test last year, but I'm certainly not about to drop the language entirely right now. For now, I'm just keeping it up by reading a few books.` },
   { header: 'Armenian', body: `Having lived in Glendale, CA for the past two years (the world's most Armenian city after Yerevan, the capital of Armenia), I've been mildly interested in learning some Armenian for a while now, although my interest has come and gone in a few waves. I'm currently once again in a phase of high interest in Armenian, in part thanks to discovering a few new textbooks, as well as the realization that my grasp of the Armenian script is now solid enough that textbooks I used to struggle with are no longer so hard to use.` },
-  { header: 'Kazakh', body: `TKTKTKTK` },
-  { header: 'Uyghur', body: `TKTKTKTK` }
-  ]
+  { header: 'Kazakh', body: `As a longtime Turkic language enthiast, I figure I need to be working on at least one Turkic language right now.` }
+]
 </script>
 
 ## Overview
