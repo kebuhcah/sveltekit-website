@@ -11,7 +11,7 @@
 	</p>
 
 	<p>
-		More info to come.
+		More info <a href="/blog/editorial/about">here</a>.
 	</p>
 
 </div>
