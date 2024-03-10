@@ -22,8 +22,8 @@
 			<li class="mobile-hide" aria-current={$page.url.pathname === '/blog/category' ? 'page' : undefined}>
 				<a href="/blog/category">Topics</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">About</a>
+			<li aria-current={$page.url.pathname === '/blog/editorial/about' ? 'page' : undefined}>
+				<a href="/blog/editorial/about">About</a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
