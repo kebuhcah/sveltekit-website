@@ -39,8 +39,7 @@
 
 	<div class="text-column">
 		<div class="meta">
-			<b>Started:</b>
-			{dayjs(birthtime).format("MMM D, YYYY ")} | <b>Last update:</b>
+			<b>Last update:</b>
 			{dayjs(mtime).format("MMM D, YYYY ")}
 		</div>
 		{#if categories}
