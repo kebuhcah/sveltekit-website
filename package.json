@@ -21,7 +21,9 @@
 		"mdsvex": "^0.10.6",
 		"rehype-autolink-headings": "^6.1.1",
 		"rehype-class-names": "^1.0.14",
-		"rehype-slug": "^5.1.0"
+		"rehype-slug": "^5.1.0",
+		"remark-directive": "^3.0.0",
+		"remark-directive-rehype": "^0.4.2"
 	},
 	"devDependencies": {
 		"@fontsource/fira-mono": "^4.5.10",
