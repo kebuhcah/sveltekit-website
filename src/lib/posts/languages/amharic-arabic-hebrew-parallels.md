@@ -22,9 +22,10 @@ excerpt: Amharic is a Semitic language like Arabic and Hebrew. But just how simi
 
 I've been studying various dialects of Arabic on-and-off for about 15 years now, and modern Hebrew for around 10. More recently, I've taken a few stabs at learning other less widely studied Semitic languages like <a href="https://medium.com/sunlanguagetheories/dabbling-diary-aramaic-the-first-world-language-f7477e014bdf" target="_blank">Aramaic</a> and various languages of Ethiopia* - mostly Amharic but also a little Ge'ez and a tiny amount of Tigrinya.
 
+<aside class="right">Of course, there are other Semitic languages in the Horn of Africa besides Amharic! Tigrinya is spoken in the north and in Eritrea, and Ge'ez was the historical literary language and is still used in religious contexts. In many ways, Amharic is the "weirdest" of these, and is more different from northern Semitic languages in pronunciation, vocabulary and grammar.</aside>
+
 I'm still far from conversational in Amharic, but at this point I am able to read the alphabet quite well and have a good grasp of the grammar. Since Amharic is much less studied than either Arabic or Hebrew, I've occasionally been asked to explain just how similar it really is to its more famous relatives. This post is basically a cheat-sheet for the next time I'm in that situation.
 
-<aside class="full">Of course, there are other Semitic languages in the Horn of Africa besides Amharic! Tigrinya is spoken in the north and in Eritrea, and Ge'ez was the historical literary language and is still used in religious contexts. In many ways, Amharic is the "weirdest" of these, and is more different from northern Semitic languages in pronunciation, vocabulary and grammar.</aside>
 
 ## What's in a name?
 
@@ -36,7 +37,7 @@ Let's start with some Amharic words you're somewhat likely to have heard, even i
 
 The name of Ethiopia's last emperor (and Rastafarian icon) **<a href="https://en.wikipedia.org/wiki/Haile_Selassie" target="_blank">Haile Selassie</a>**, meanwhile, means "Power of the Trinity".  <Lemma language="amh" latin="Səllāsé" script="ሥላሴ"/> is related to Hebrew <Lemma language="heb" latin="šaloš" latin2="shalosh" script="שלוש" /> and Arabic <Lemma language="ara" latin="ṯalāṯa" script="ثلاثة" punct/>. Strictly speaking, I guess this should be considered a Ge'ez word, but it exhibits the same sound change as in Amharic — the Arabic "th" sound, which corresponds to Hebrew "sh", becomes an "s" in Amharic.
 
-<aside class="full">The transliteration of Amharic into Latin script is a bit tricky. In addition to having two slightly different "weak" vowel sounds, the pronunciations of many different letters have merged in Amharic (while being distinct in Ge'ez and Tigrinya) so there's also a question of how much to reflect those differences. (TK more detail)</aside>
+<aside class="right">The transliteration of Amharic into Latin script is a bit tricky. In addition to having two slightly different "weak" vowel sounds, the pronunciations of many different letters have merged in Amharic (while being distinct in Ge'ez and Tigrinya) so there's also a question of how much to reflect those differences. (TK more detail)</aside>
 
 Now let's take a look some more examples. Many of these are words I remembered during my own learning process, but I also owe a lot of this content to D.L. Appleyard's <a href="https://archive.org/details/AppleyardAComparativeApproachToTheAmharicLexicon1977" target="_blank">A Comparative Approach to the Amharic Lexicon (1977)</a>.
 
