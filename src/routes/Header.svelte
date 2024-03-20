@@ -2,6 +2,7 @@
 	import { page } from '$app/stores';
 	import logo from '$lib/images/slt-logo.png';
 	import github from '$lib/images/github.svg';
+	import twitter from '$lib/images/twitter-icon.webp';
 	import medium from '$lib/images/medium_logo.svg';
 </script>
 
@@ -31,6 +32,11 @@
 		</svg>
 	</nav>
 	<div class="corner corner-gap">
+		<a href="https://twitter.com/kebuhcah">
+			<img src={twitter} alt="Twitter" />
+		</a>
+	</div>
+	<div class="corner">
 		<a href="https://github.com/kebuhcah">
 			<img src={github} alt="GitHub" />
 		</a>
