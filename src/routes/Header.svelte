@@ -32,17 +32,17 @@
 		</svg>
 	</nav>
 	<div class="corner corner-gap">
-		<a href="https://twitter.com/kebuhcah">
+		<a href="https://twitter.com/kebuhcah" target="_blank">
 			<img src={twitter} alt="Twitter" />
 		</a>
 	</div>
 	<div class="corner">
-		<a href="https://github.com/kebuhcah">
+		<a href="https://github.com/kebuhcah" target="_blank">
 			<img src={github} alt="GitHub" />
 		</a>
 	</div>
 	<div class="corner">
-		<a href="https://medium.com/sunlanguagetheories">
+		<a href="https://medium.com/sunlanguagetheories" target="_blank">
 			<img src={medium} alt="Medium" />
 		</a>
 	</div>
