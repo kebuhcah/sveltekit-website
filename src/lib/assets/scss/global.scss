@@ -70,7 +70,7 @@ a[target="_blank"] {
 	text-decoration: underline dotted;
 }
 
-a[target="_blank"]::after {
+p > a[target="_blank"]::after {
 	content: "↗️";
 }
 
