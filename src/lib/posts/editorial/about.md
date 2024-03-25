@@ -20,14 +20,14 @@ Another reason I wanted to try making a website is just because I can. I work in
 
 This website is built using SvelteKit and Vercel. To start off, I made use of a couple of blog templates: https://vercel.com/templates/svelte/sveltekit-boilerplate and https://github.com/josh-collinsworth/sveltekit-blog-starter/tree/main. 
 
-Why Svelte? In fact, the main web development framework I've used in the past has been React, but a few months ago I came across an article that praised the virtues of Svelete, and I have to say I was intrigued. I don't think I've experienced either of these frameworks extensively enough yet to say that one is definitely better than the other, but so far working with Svelte has felt refreshing simple for the most part.
+Why Svelte? In fact, the main web development framework I've used in the past has been React, but a few months ago I came across an article that praised the virtues of Svelte, and I have to say I was intrigued. I don't think I've experienced either of these frameworks extensively enough yet to say that one is definitely better than the other, but so far working with Svelte has felt refreshingly simple for the most part.
 
-# Roadmap
-
-
+Technically, things aren't particularly fancy at the moment. I've just had to implement a couple of custom components for display purposes (a multilingual lemma element, and a custom-made implementation of the masonry layout). As I add more content to the site, I may also need to come up with more scalable ways of keeping track of my posts.
 
 # Inspiration
 
-https://projects.kwon.nyc/internet-is-fun/
-https://maggieappleton.com
-https://www.gwern.net/
+Over the past several months, as I've been trying to figure the shape and direction my new website should take, I bookmarked countless personal websites whose design could be useful to me: some of the top ones include designer/anthropologist <a href="https://maggieappleton.com" target="_blank">Maggie Appleton</a>, AI researcher <a href="https://www.gwern.net/" target="_blank">Gwern Branwen</a>, and the long list of contributors to the collection of articles at <a href="https://projects.kwon.nyc/internet-is-fun/" target="_blank">The Internet Used to be Fun</a>
+
+# Roadmap
+
+If you're reading this, I suppose that means the website has in fact been launched, and is now "live". This is still a relatively new website, and at the time of launch I just wanted to have a couple of articles ready - this one, one in-depth article about my own language learning experience, one more general article about all the languages I'm working on, and a deep dive into one specific language.
