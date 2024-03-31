@@ -2,7 +2,7 @@
 //@use './layout';
 //@use './components';
 //@use './header-and-footer';
-//@use './forms';
+@use './posts';
 @use './utilities';
 
 @import '@fontsource/fira-mono';
@@ -70,49 +70,6 @@ a[target="_blank"] {
 	text-decoration: underline dotted;
 }
 
-p > a[target="_blank"]::after {
-	content: "↗️";
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
-ul {
-	margin-top: 0.2rem;
-}
-
-li {
-	margin-top: 0.4rem;
-	line-height: 1.4;
-}
-
-
-aside {
-	max-width: 30%;
-	border-style: solid;
-	border-width: 1px;
-	margin: 1rem;
-	text-align: left;
-	font-size: 80%;
-	line-height: 1.5;
-}
-
-aside.right {
-	float: right;
-	padding: 0.5rem 0.5rem 0.5rem 1rem;
-}
-
-aside.left {
-	float: left;
-	padding: 0.5rem 0.5rem 0.5rem 1rem;
-}
-
-aside.full {
-	padding: 0.5rem 0.5rem 0.5rem 1rem;
-	max-width: 100%
-}
-
 pre {
 	font-size: 16px;
 	font-family: var(--font-mono);
@@ -122,33 +79,6 @@ pre {
 	padding: 0.5em;
 	overflow-x: auto;
 	color: var(--color-text);
-}
-
-.text-column {
-	display: flex;
-	max-width: 64rem;
-	flex: 0.6;
-	flex-direction: column;
-	justify-content: center;
-	margin: 0 auto;
-}
-
-.text-column  h2 {
-	max-width: 42rem;
-}
-
-.text-column  ul {
-	max-width: 42rem;
-}
-
-.text-column > p {
-	max-width: 42rem;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.text-column section > p {
-	max-width: 42rem;
 }
 
 input,
