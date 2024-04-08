@@ -6,9 +6,11 @@ categories:
 excerpt: So I decided to make my own website - but why?
 ---
 
+##
+
 Welcome to "Sun Language Theories", my new website. I had previously been posting language related thoughts on and off to a Medium blog of the same name for several years, but it's been a while since I've posted anything there (the last article was in early 2022), and I've decided to try a different approach this time by building my own site from scratch.
 
-# Motivation
+## Motivation
 
 But why? Isn't it a lot easier to just use an existing platform to post things on, and let the platform handle everything from editing and layout to distribution? Probably. But from the couple of years I'd been writing on my blog - with long breaks in between - I kept running into a recurring issue: writing a whole article takes a long time. The cycle of collecting a bunch of thoughts, laying them out in a long string of words, and then publishing them in finished form once and for all, just didn't quite fit my style.
 
@@ -16,7 +18,7 @@ I mean, I'm thinking about languages and learning languages all the time. If you
 
 Another reason I wanted to try making a website is just because I can. I work in tech, and although my day job mainly involves data analysis rather than app or web development, I have dabbled in some of the relevant technologies over the years. Having a long-running project to work on seems like a good way to keep up those skills and learn new things about how the web works.
 
-# Technical Notes
+## Technical Notes
 
 This website is built using SvelteKit and Vercel. 
 
@@ -26,10 +28,10 @@ To start off, I used of a couple of templates templates to get the project off t
 
 Technically, things aren't particularly fancy at the moment. I've just had to implement a couple of custom components for display purposes (a multilingual lemma element, and a custom-made implementation of the masonry layout). As I add more content to the site, I may also need to come up with more scalable ways of keeping track of my posts.
 
-# Inspiration
+## Inspiration
 
 Over the past several months, as I've been trying to figure the shape and direction my new website should take, I bookmarked countless personal websites whose design could be useful to me: some of the top ones include designer/anthropologist <a href="https://maggieappleton.com" target="_blank">Maggie Appleton</a>, AI researcher <a href="https://www.gwern.net/" target="_blank">Gwern Branwen</a>, and the long list of contributors to the collection of articles at <a href="https://projects.kwon.nyc/internet-is-fun/" target="_blank">The Internet Used to be Fun</a>
 
-# Roadmap
+## Roadmap
 
  This is still a relatively new website, and at the time of launch I just wanted to have a couple of articles ready - this one, one in-depth article about my own language learning experience, one more general article about all the languages I'm working on, and a deep dive into one specific language.
