@@ -11,8 +11,6 @@
 </svelte:head>
 
 <h1 class="title">𐩳𐩢𐩺</h1>
-<h1 class="title">𝕾𝖚𝖓 𝕷𝖆𝖓𝖌𝖚𝖆𝖌𝖊 𝕿𝖍𝖊𝖔𝖗𝖎𝖊𝖘</h1>
-<h2 class="title">by 𝕂𝕖𝕧𝕚𝕟 𝔽𝕖𝕚 𝕊𝕦𝕟</h2>
 
 <PostsList posts={data.posts} />
 

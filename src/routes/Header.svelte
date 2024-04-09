@@ -17,15 +17,9 @@
 			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
 		</svg>
 		<ul>
-			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/">Home</a>
-			</li>
-			<li class="mobile-hide" aria-current={$page.url.pathname === '/blog/category' ? 'page' : undefined}>
-				<a href="/blog/category">Topics</a>
-			</li>
-			<li aria-current={$page.url.pathname === '/blog/editorial/about' ? 'page' : undefined}>
-				<a href="/blog/editorial/about">About</a>
-			</li>
+			<li><a href="/">𝕾𝖚𝖓 𝕷𝖆𝖓𝖌𝖚𝖆𝖌𝖊 𝕿𝖍𝖊𝖔𝖗𝖎𝖊𝖘</li>
+				<li>by 𝕂𝕖𝕧𝕚𝕟 𝔽𝕖𝕚 𝕊𝕦𝕟
+				</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
@@ -111,30 +105,32 @@
 		height: 100%;
 	}
 
-	li[aria-current='page']::before {
-		--size: 6px;
-		content: '';
-		width: 0;
-		height: 0;
-		position: absolute;
-		top: 0;
-		left: calc(50% - var(--size));
-		border: var(--size) solid transparent;
-		border-top: var(--size) solid var(--color-theme-1);
-	}
-
 	nav a {
 		display: flex;
 		height: 100%;
 		align-items: center;
-		padding: 0 0.5rem;
+		padding: 0 0.2rem 0.2rem 0;
 		color: var(--color-text);
 		font-weight: 700;
-		font-size: 0.8rem;
-		text-transform: uppercase;
+		font-size: 1.2rem;
+		/*text-transform: uppercase;*/
 		letter-spacing: 0.1em;
 		text-decoration: none;
 		transition: color 0.2s linear;
+	}
+
+	nav li {
+		display: flex;
+		height: 100%;
+		align-items: center;
+		padding: 0 0.2rem 0.4rem 0;
+		color: var(--color-text);
+		font-weight: 700;
+		font-size: 1rem;
+		letter-spacing: 0.1em;
+		text-decoration: none;
+		transition: color 0.2s linear;
+
 	}
 
 	a:hover {
