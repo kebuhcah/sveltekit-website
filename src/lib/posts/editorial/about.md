@@ -6,8 +6,6 @@ categories:
 excerpt: So I decided to make my own website - but why?
 ---
 
-##
-
 Welcome to "Sun Language Theories", my new website. I had previously been posting language related thoughts on and off to a Medium blog of the same name for several years, but it's been a while since I've posted anything there (the last article was in early 2022), and I've decided to try a different approach this time by building my own site from scratch.
 
 ## Motivation

@@ -12,8 +12,6 @@ coverHeight: 9
 excerpt: Some notes on how I prepped for my German C1 exam, and what it means for my overall language learning situation.
 ---
 
-##
-
 Last October, I finally went and took an official test to certify my skill in a foreign language. This was a long time coming, since I'd decided way back in 2021 that I would like to do an official language exam in one language, and pretty quickly settled on German as the language to do it in. But still, it took me a while to decide on the specific timing of the exam, and I finally felt reasonably confident in my ability to pass the C1 exam last summer. (This was shortly after I'd finally gotten around to actually visiting Germany for once — I hung out in Berlin for a week after last year's Polyglot Gathering in May.)
 
 ## What the test was like
