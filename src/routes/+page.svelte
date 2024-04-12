@@ -14,6 +14,14 @@
 
 <Pagination currentPage={1} totalPosts={data.total} />
 
-<style>
+{#each data.uniqueCategories as category}
+	<li>
+		<a href="/blog/category/{category.title}">
+			{category.title}
+		</a>
+		({category.count})
+	</li>
+{/each}
 
+<style>
 </style>
