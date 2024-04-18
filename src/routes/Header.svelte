@@ -18,7 +18,7 @@
 		</svg>
 		<ul>
 			<li><a href="/">🚧 𝕾𝖚𝖓 𝕷𝖆𝖓𝖌𝖚𝖆𝖌𝖊 𝕿𝖍𝖊𝖔𝖗𝖎𝖊𝖘 🚧</li>
-				<li>by 𝕂𝕖𝕧𝕚𝕟 𝔽𝕖𝕚 𝕊𝕦𝕟
+				<li><span>by</span>𝕂𝕖𝕧𝕚𝕟 𝔽𝕖𝕚 𝕊𝕦𝕟
 				</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
@@ -103,6 +103,11 @@
 	li {
 		position: relative;
 		height: 100%;
+	}
+
+	span {
+		font-size: 0.7rem;
+		margin-right: 0.3rem;
 	}
 
 	nav a {
