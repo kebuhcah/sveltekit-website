@@ -9,6 +9,7 @@ coverImage: "/images/filler.jpg"
 coverWidth: 16
 coverHeight: 9
 excerpt: Some of the books I've been reading lately, in various languages.
+hidden: true
 ---
 
 - Le Naufrage de Civilisations
