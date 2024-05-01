@@ -17,6 +17,7 @@ excerpt: Amharic is a Semitic language like Arabic and Hebrew. But just how simi
 
 ## Intro
 
+
 ## Past Tense: very similar
 
 
